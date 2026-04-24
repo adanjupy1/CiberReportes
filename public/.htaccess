@@ -1,0 +1,15 @@
+RewriteEngine On
+RewriteBase /
+
+# Excluir /api/rag/ del rewrite (para proxy backend)
+RewriteCond %{REQUEST_URI} !^/api/rag/
+
+# Excluir proyectos_alternativos del rewrite
+RewriteCond %{REQUEST_URI} !^/proyectos_alternativos/
+
+
+# Solo reescribir si no es un archivo o directorio existente
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^ index.php [QSA,L]
