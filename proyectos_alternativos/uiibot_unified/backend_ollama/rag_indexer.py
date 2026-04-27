@@ -177,7 +177,7 @@ KNOWLEDGE_BASE = [
             "Secretaría de Seguridad y Protección Ciudadana atiende delitos informáticos. "
             "CONTACTO: Línea de emergencia 088 (24/7). "
             "Correo: division.cientifica@sspc.gob.mx. "
-            "Delitos que atiende: hackeo, sextorsión, grooming, acoso digital, fraude en línea, "
+            "Delitos que atiende: hackeo, sextorsión, grooming, acoso +digital, fraude en línea, "
             "robo de identidad digital, pornografía infantil en internet. "
             "También puedes denunciar en el Ministerio Público de tu entidad."
         ),
