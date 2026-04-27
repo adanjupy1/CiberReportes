@@ -2,6 +2,7 @@
 """
 Backend llama-cpp-python para Agente Bit
 Integración con Llama-3.2-3B-Instruct (GGUF local, sin Ollama)
++ RAG con ChromaDB para conocimiento actualizado de Ciberseguridad México
 """
 
 from fastapi import FastAPI, HTTPException
@@ -44,7 +45,74 @@ llm = Llama.from_pretrained(
 logger.info("Modelo cargado correctamente.")
 
 # ---------------------------------------------------------------------------
-app = FastAPI(title="Agente Bit — llama-cpp-python")
+# RAG — ChromaDB + Sentence Transformers (multilingüe)
+# ---------------------------------------------------------------------------
+CHROMA_DB_PATH  = Path(__file__).parent / "chroma_db"
+COLLECTION_NAME = "ciberseg_mexico"
+EMBED_MODEL     = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+
+_embedder   = None
+_collection = None
+
+
+def _init_rag():
+    """Inicializa el motor RAG (lazy, solo si la DB existe)."""
+    global _embedder, _collection
+    if not CHROMA_DB_PATH.exists():
+        logger.warning(
+            "⚠️  ChromaDB no encontrada. RAG desactivado. "
+            "Ejecuta: python rag_indexer.py para crear la base de conocimiento."
+        )
+        return
+
+    try:
+        import chromadb
+        from sentence_transformers import SentenceTransformer
+
+        client = chromadb.PersistentClient(path=str(CHROMA_DB_PATH))
+        _collection = client.get_or_create_collection(COLLECTION_NAME)
+        _embedder   = SentenceTransformer(EMBED_MODEL)
+        doc_count   = _collection.count()
+        logger.info(f"✅ RAG activo — {doc_count} documentos en '{COLLECTION_NAME}'")
+    except ImportError:
+        logger.warning("⚠️  chromadb/sentence-transformers no instalados. RAG desactivado.")
+    except Exception as exc:
+        logger.warning(f"⚠️  Error al inicializar RAG: {exc}")
+
+
+def retrieve_context(query: str, n_results: int = 3) -> str:
+    """
+    Recupera los fragmentos más relevantes de la base vectorial local.
+    Retorna string vacío si RAG no está disponible o no hay resultados.
+    """
+    if _collection is None or _embedder is None:
+        return ""
+
+    try:
+        embedding = _embedder.encode(query).tolist()
+        results   = _collection.query(
+            query_embeddings=[embedding],
+            n_results=n_results,
+            include=["documents", "metadatas", "distances"],
+        )
+        docs      = results.get("documents", [[]])[0]
+        distances = results.get("distances", [[]])[0]
+
+        # Filtrar por umbral de relevancia (distancia coseno < 1.2)
+        relevant = [
+            doc for doc, dist in zip(docs, distances) if dist < 1.2
+        ]
+        return "\n\n---\n".join(relevant) if relevant else ""
+    except Exception as exc:
+        logger.warning(f"RAG retrieve error: {exc}")
+        return ""
+
+
+# Inicializar RAG al arrancar
+_init_rag()
+
+# ---------------------------------------------------------------------------
+app = FastAPI(title="Agente Bit — llama-cpp-python + RAG")
 
 # CORS
 app.add_middleware(
@@ -60,15 +128,22 @@ conversations: dict[str, list] = {}
 
 SYSTEM_PROMPT = (
     "Eres Agente Bit, un asistente especializado en ciberseguridad creado para ayudar "
-    "a ciudadanos mexicanos.\n\n"
-    "Tus responsabilidades:\n"
-    "- Explicar términos y conceptos de ciberseguridad de forma clara y accesible\n"
-    "- Proporcionar consejos prácticos de seguridad digital\n"
-    "- Ayudar a identificar amenazas y vulnerabilidades\n"
-    "- Orientar sobre buenas prácticas en internet\n"
-    "- Ser conciso pero informativo\n"
-    "- Usar lenguaje profesional pero amigable\n\n"
-    "Responde de manera directa, clara y útil. Si no estás seguro de algo, admítelo."
+    "a ciudadanos y empresas mexicanas.\n\n"
+    "CONTEXTO MEXICO 2024-2025:\n"
+    "- México es el 2do país más atacado en Latinoamérica (Kaspersky 2024)\n"
+    "- Amenazas activas: phishing SAT/IMSS, ransomware a PYMES, fraude bancario digital, vishing, smishing\n"
+    "- Marco legal: LFPDPPP (datos personales), Código Penal Federal arts. 211-bis, regulaciones CNBV\n"
+    "- Autoridades: CERT-MX (cert@unam.mx), CONDUSEF (800-999-8080), Policía Cibernética (088), INAI (800-835-4324)\n\n"
+    "TUS RESPONSABILIDADES:\n"
+    "- Explicar amenazas y conceptos de ciberseguridad de forma clara y accesible\n"
+    "- Proporcionar consejos prácticos de seguridad digital adaptados a México\n"
+    "- Orientar sobre derechos ARCO (INAI) y protección de datos personales\n"
+    "- Guiar ante fraudes financieros digitales (CONDUSEF)\n"
+    "- Dar pasos concretos ante incidentes de seguridad\n"
+    "- Usar lenguaje profesional pero amigable, accesible para no técnicos\n"
+    "- Incluir números de contacto mexicanos cuando sea relevante\n\n"
+    "Cuando recibas [CONTEXTO CIBERSEGURIDAD MX], úsalo como fuente de información prioritaria.\n"
+    "Si no estás seguro de algo, admítelo y orienta a la fuente oficial correspondiente."
 )
 
 
@@ -81,6 +156,7 @@ class ChatResponse(BaseModel):
     reply: str
     session_id: str
     model: str
+    rag_used: bool = False
 
 
 # ---------------------------------------------------------------------------
@@ -92,6 +168,11 @@ async def health():
         "backend": "llama-cpp-python",
         "model": MODEL_NAME,
         "model_file": MODEL_FILE,
+        "rag": {
+            "active": _collection is not None,
+            "documents": _collection.count() if _collection else 0,
+            "collection": COLLECTION_NAME,
+        },
         "config": {
             "server_url": SERVER_URL,
             "api_port": API_PORT,
@@ -103,9 +184,9 @@ async def health():
 @app.post("/api/chat", response_model=ChatResponse)
 async def chat(request: ChatRequest):
     """
-    Endpoint principal de chat usando llama-cpp-python (inferencia local).
+    Endpoint principal de chat usando llama-cpp-python (inferencia local) + RAG.
     """
-    session_id = request.session_id
+    session_id   = request.session_id
     user_message = request.message.strip()
 
     if not user_message:
@@ -117,8 +198,21 @@ async def chat(request: ChatRequest):
             {"role": "system", "content": SYSTEM_PROMPT}
         ]
 
-    # Agregar mensaje del usuario al historial
-    conversations[session_id].append({"role": "user", "content": user_message})
+    # ── RAG: recuperar contexto relevante ──────────────────────────────────
+    rag_context = retrieve_context(user_message)
+    rag_used    = bool(rag_context)
+
+    if rag_used:
+        enriched_message = (
+            f"[CONTEXTO CIBERSEGURIDAD MX]\n{rag_context}\n\n"
+            f"[PREGUNTA DEL USUARIO]\n{user_message}"
+        )
+        logger.info(f"RAG: contexto inyectado ({len(rag_context)} chars) — sesión {session_id[:8]}")
+    else:
+        enriched_message = user_message
+
+    # Agregar mensaje del usuario al historial (con contexto RAG si aplica)
+    conversations[session_id].append({"role": "user", "content": enriched_message})
 
     # Limitar historial: 1 system + últimos 20 mensajes (10 intercambios)
     if len(conversations[session_id]) > 21:
@@ -126,7 +220,7 @@ async def chat(request: ChatRequest):
             [conversations[session_id][0]] + conversations[session_id][-20:]
         )
 
-    logger.info(f"Generando respuesta con {MODEL_NAME} — sesión {session_id[:8]}")
+    logger.info(f"Generando respuesta con {MODEL_NAME} — sesión {session_id[:8]} | RAG: {rag_used}")
 
     try:
         result = llm.create_chat_completion(
@@ -145,7 +239,8 @@ async def chat(request: ChatRequest):
     if not assistant_message:
         raise HTTPException(status_code=500, detail="Respuesta vacía del modelo")
 
-    # Guardar respuesta en historial
+    # Guardar en historial el mensaje original (sin el contexto RAG para ahorrar tokens)
+    conversations[session_id][-1] = {"role": "user", "content": user_message}
     conversations[session_id].append(
         {"role": "assistant", "content": assistant_message}
     )
@@ -156,6 +251,7 @@ async def chat(request: ChatRequest):
         reply=assistant_message,
         session_id=session_id,
         model=MODEL_NAME,
+        rag_used=rag_used,
     )
 
 
@@ -175,6 +271,18 @@ async def list_sessions():
     return {
         "sessions": list(conversations.keys()),
         "count": len(conversations),
+    }
+
+
+@app.get("/api/rag/status")
+async def rag_status():
+    """Estado del motor RAG"""
+    return {
+        "active": _collection is not None,
+        "documents": _collection.count() if _collection else 0,
+        "collection": COLLECTION_NAME,
+        "embed_model": EMBED_MODEL,
+        "db_path": str(CHROMA_DB_PATH),
     }
 
 
