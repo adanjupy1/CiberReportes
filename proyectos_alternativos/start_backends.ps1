@@ -50,10 +50,10 @@ Start-Process -FilePath $uvicornExe `
 
 Start-Sleep -Seconds 2
 
-Write-Host "Iniciando Agente Bit Ollama (Puerto 8002)..." -ForegroundColor Cyan
+Write-Host "Iniciando Agente Bit llama-cpp (Puerto 8002)..." -ForegroundColor Cyan
 $logFile8002 = "$logsDir\backend_ollama_8002.log"
-Start-Process -FilePath $pythonExe `
-    -ArgumentList "main.py" `
+Start-Process -FilePath $uvicornExe `
+    -ArgumentList "main:app", "--host", "0.0.0.0", "--port", "8002", "--log-level", "info" `
     -WorkingDirectory $uiibotUnifiedDir `
     -WindowStyle Hidden `
     -RedirectStandardOutput "$logsDir\backend_ollama_8002_stdout.log" `
@@ -66,7 +66,7 @@ Write-Host ""
 Write-Host "Servicios activos:" -ForegroundColor Yellow
 Write-Host "  - UIIBOT RAG Menu:      http://localhost:8000" -ForegroundColor White
 Write-Host "  - El Agente Bit Pro:    http://localhost:8001" -ForegroundColor White
-Write-Host "  - Agente Bit Ollama:    http://localhost:8002" -ForegroundColor White
+Write-Host "  - Agente Bit llama-cpp:  http://localhost:8002" -ForegroundColor White
 Write-Host ""
 Write-Host "Logs disponibles en:" -ForegroundColor Yellow
 Write-Host "  - $logsDir\backend_rag_8000_*.log" -ForegroundColor Gray

@@ -5,3 +5,7 @@ fastapi
 uvicorn[standard]
 python-dotenv
 httpx
+
+# uiibot_unified (backend_ollama) — inferencia local con llama-cpp-python
+llama-cpp-python>=0.3.20
+diskcache>=5.6.1
