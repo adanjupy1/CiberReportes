@@ -527,7 +527,7 @@ $configJsPath = isset($_ENV['CONFIG_JS_PATH']) && !empty($_ENV['CONFIG_JS_PATH']
 <body>
   <div class="wrap">
     <!-- Tabs de selección -->
-    <div class="tabs">
+    <div class="tabs" style="display:none;">
       <div class="tab pro active" id="tabPro">
         <span class="tab-title">🔒 Agente Pro</span>
       </div>
@@ -683,29 +683,7 @@ $configJsPath = isset($_ENV['CONFIG_JS_PATH']) && !empty($_ENV['CONFIG_JS_PATH']
         chipsContainer.appendChild(chip);
       });
       
-      // En modo Ollama, siempre agregar sugerencias inteligentes si no hay quick_replies
-      if (currentProject === 'ollama' && quickReplies.length === 0) {
-        const suggestions = [
-          "¿Qué es ransomware?",
-          "¿Cómo proteger mi información personal?",
-          "Diferencia entre malware y virus",
-          "¿Qué es autenticación de dos factores?",
-          "Consejos para navegación segura",
-          "¿Cómo identificar un correo falso?"
-        ];
-        // Mostrar 4 sugerencias aleatorias
-        const randomSuggestions = suggestions.sort(() => 0.5 - Math.random()).slice(0, 4);
-        randomSuggestions.forEach(label => {
-          const chip = document.createElement("div");
-          chip.className = "chip";
-          chip.textContent = label;
-          chip.style.borderColor = "#6b8e23";
-          chip.style.background = "rgba(107, 142, 35, .2)";
-          chip.style.cursor = "pointer";
-          chip.onclick = () => send(label);
-          chipsContainer.appendChild(chip);
-        });
-      }
+
       
       bubble.appendChild(chipsContainer);
       wrap.appendChild(bubble);

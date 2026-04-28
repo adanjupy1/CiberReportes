@@ -98,9 +98,13 @@ def retrieve_context(query: str, n_results: int = 3) -> str:
         docs      = results.get("documents", [[]])[0]
         distances = results.get("distances", [[]])[0]
 
-        # Filtrar por umbral de relevancia (distancia coseno < 1.2)
+        # Filtrar por umbral de relevancia (distancia coseno < 1.5)
+        # < 0.8  → muy alta similitud
+        # 0.8-1.2 → alta similitud
+        # 1.2-1.5 → similitud moderada (aún útil)
+        # > 1.5  → ruido, se descarta
         relevant = [
-            doc for doc, dist in zip(docs, distances) if dist < 1.2
+            doc for doc, dist in zip(docs, distances) if dist < 1.5
         ]
         return "\n\n---\n".join(relevant) if relevant else ""
     except Exception as exc:
@@ -228,7 +232,8 @@ async def chat(request: ChatRequest):
             temperature=0.7,
             top_p=0.9,
             top_k=40,
-            max_tokens=512,
+            max_tokens=256,        # límite reducido: respuestas concisas, evita loops en CPU
+            repeat_penalty=1.1,    # penaliza repetición, previene generación infinita
         )
         assistant_message: str = result["choices"][0]["message"]["content"]
 
