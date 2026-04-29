@@ -1,0 +1,1634 @@
+[
+  {
+    "id": "base:0",
+    "source": "base",
+    "q": "Explícame registro de reportes cibernéticos como si fuera la primera vez que lleno el formulario.",
+    "a": "Es donde vas a ingresar los detalles paso a paso de tu incidente para reportarlo de manera segura a la policía cibernética.",
+    "topic": "Guía paso a paso - Registro",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base:1",
+    "source": "base",
+    "q": "¿Qué es el folio?",
+    "a": "Es tu comprobante que obtienes automáticamente al finalizar el llenado del formulario, útil para hacer seguimiento.",
+    "topic": "Guía paso a paso - Registro",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base:2",
+    "source": "base",
+    "q": "¿Cómo uso la sección de Captcha?",
+    "a": "Completa visual o numérico que aparece al final del formulario para validar y enviar tu información.",
+    "topic": "Uso del formulario web",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base:3",
+    "source": "base",
+    "q": "¿Cómo pongo el número de teléfono?",
+    "a": "Escribe tu número de teléfono completo a 10 dígitos.",
+    "topic": "Campos del formulario",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base:4",
+    "source": "base",
+    "q": "¿Qué correo pongo?",
+    "a": "Escribe un correo válido donde podamos contactarte.",
+    "topic": "Campos del formulario",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base:5",
+    "source": "base",
+    "q": "¿Es obligatorio poner un correo?",
+    "a": "Sí, comenzamos solicitando tu correo para asegurar un medio de contacto y seguimiento.",
+    "topic": "Formulario de registro",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base:6",
+    "source": "base",
+    "q": "¿Cómo elijo el medio del incidente?",
+    "a": "Selecciona de la lista la opción que mejor describa dónde ocurrió el incidente (ej. Facebook, WhatsApp, correo).",
+    "topic": "Guía paso a paso - Descripción del incidente",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base:7",
+    "source": "base",
+    "q": "¿Qué pongo en la descripción del incidente?",
+    "a": "Describe lo que pasó de forma clara y cronológica, detallando cómo ocurrió el incidente de seguridad digital.",
+    "topic": "Guía paso a paso - Descripción del incidente",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:8",
+    "source": "base",
+    "q": "¿Cómo añado sitios web relacionados?",
+    "a": "Si tienes enlaces relacionados en el reporte, ponlos aquí. Puedes agregar hasta 30 enlaces.",
+    "topic": "Evidencias y archivos",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base:9",
+    "source": "base",
+    "q": "¿Es obligatorio poner una URL?",
+    "a": "No es obligatorio, pero si tienes enlaces de evidencia, ponlos aquí.",
+    "topic": "Evidencias y archivos",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base:10",
+    "source": "base",
+    "q": "¿Qué puedo subir como evidencia?",
+    "a": "Puedes subir imágenes (JPG, PNG), documentos (PDF) o audio/video (MP3, MP4) que sirvan como prueba.",
+    "topic": "Evidencias y archivos",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base:11",
+    "source": "base",
+    "q": "¿Cómo completar el registro?",
+    "a": "Acepta el aviso de privacidad, elige tu idioma, llena tus datos de contacto y del incidente, adjunta pruebas si las tienes, resuelve el Captcha y envía el reporte.",
+    "topic": "Guía paso a paso - Registro",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:12",
+    "source": "base",
+    "q": "El incidente ocurrió en mi celular o equipo móvil.",
+    "a": "Si fue en tu celular: desconecta el internet, guarda capturas de pantalla como evidencia, no borres contenido y cambia tus contraseñas desde otro equipo seguro. Escanea el dispositivo buscando virus o programas maliciosos.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:13",
+    "source": "base",
+    "q": "Tuve el problema de seguridad en mi tableta.",
+    "a": "En caso de tableta: haz capturas de prueba, desconecta el Wifi/datos, revisa apps sospechosas instaladas hace poco y actualiza las contraseñas de tus cuentas.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:14",
+    "source": "base",
+    "q": "Me atacaron a través de mi reloj inteligente.",
+    "a": "Si fue en tu smartwatch: revisa qué permisos está usando, desconéctalo temporalmente de tu celular si sospechas de accesos no autorizados y cambia la contraseña de la cuenta conectada.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:15",
+    "source": "base",
+    "q": "El incidente pasó en mi consola de videojuegos.",
+    "a": "Para consolas: activa la verificación en dos pasos, no des tus datos personales en chats de voz, bloquea y reporta al usuario en la plataforma y contacta al ayuda técnica del juego.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:16",
+    "source": "base",
+    "q": "Recibí un ataque por correo electrónico.",
+    "a": "Si fue por correo (phishing o malware): no abras enlaces ni descargues adjuntos, márcalo como spam, cambia tu contraseña inmediatamente y verifica las reglas de reenvío de correos.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:17",
+    "source": "base",
+    "q": "El incidente afectó mi equipo de cómputo (PC/Laptop).",
+    "a": "En tu computadora: desconéctala de la red para evitar robo de datos, haz un escaneo completo con antivirus, guarda una copia de tus archivos en un disco externo y cambia todas tus contraseñas.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:18",
+    "source": "base",
+    "q": "Hackearon un dispositivo inteligente (IoT) de mi casa.",
+    "a": "Para dispositivos IoT (cámaras, asistentes): cambia la contraseña que viene de fábrica inmediatamente, actualiza el sistema y, si el ataque persiste, desconéctalo de la luz e internet.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:19",
+    "source": "base",
+    "q": "El problema fue a través de redes sociales.",
+    "a": "En redes sociales: reporta el perfil o publicación directamente en la plataforma, bloquea al usuario, guarda la URL del perfil del agresor y capturas de pantalla como evidencia.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:20",
+    "source": "base",
+    "q": "El ataque fue dirigido a mi servidor.",
+    "a": "Si es un servidor: desconecta el equipo de la red, guarda los registros del sistema para análisis técnico, cambia usuario y contraseña de administrador y contacta a tu equipo técnico.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:21",
+    "source": "base",
+    "q": "Me intentaron extorsionar por teléfono fijo.",
+    "a": "En caso de teléfono fijo: cuelga inmediatamente, no proporciones información personal ni bancaria, anota el número entrante y la hora, y denuncia el intento de extorsión al número 089.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:22",
+    "source": "base",
+    "q": "El incidente ocurrió en mi Smart TV.",
+    "a": "Para Smart TV: cierra sesión en tus cuentas (streaming), desconecta el internet para detener el acceso desde afuera y considera restaurar el dispositivo si notas comportamiento raro.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:23",
+    "source": "base",
+    "q": "Me pasó en un sitio web fraudulento.",
+    "a": "Si fue en un sitio web: cierra el navegador inmediatamente, no ingreses ningún dato, borra el historial y cookies, y reporta el sitio fraudulento a la policía cibernética.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:24",
+    "source": "base",
+    "q": "Fue a través de una aplicación móvil.",
+    "a": "Si fue mediante una App sospechosa: toma capturas de pantalla, reporta la app en la tienda (Store), desinstálala inmediatamente y revisa los permisos que tenía.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base:25",
+    "source": "base",
+    "q": "El incidente fue en una plataforma de videollamada (Zoom/Teams).",
+    "a": "En plataformas de comunicación: termina la llamada, cambia la contraseña de tu cuenta, no aceptes archivos de extraños y avisa al administrador de TI si es una cuenta de trabajo.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:0",
+    "source": "rel",
+    "q": "¿Qué es el formulario web de denuncias de delitos cibernéticos?",
+    "a": "Es un sitio web de la Secretaría de Seguridad y Protección Ciudadana que permite a la ciudadanía registrar y dar seguimiento a denuncias relacionadas con delitos en el entorno digital.",
+    "topic": "Introducción y alcance",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:1",
+    "source": "rel",
+    "q": "¿Para qué sirve del manual de usuario del formulario web?",
+    "a": "Brindar una guía práctica y operativa para que cualquier persona pueda usar correctamente el formulario web para registrar y dar seguimiento a denuncias de delitos cibernéticos.",
+    "topic": "Introducción y alcance",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:2",
+    "source": "rel",
+    "q": "¿Quién puede usar el formulario web de denuncias?",
+    "a": "Lo pueden usar ciudadanos, víctimas directas y sus representantes legales que deseen reportar incidentes relacionados con delitos en el entorno digital.",
+    "topic": "Introducción y alcance",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:3",
+    "source": "rel",
+    "q": "¿Para qué sirve de usar el formulario para denunciar delitos cibernéticos?",
+    "a": "Hacer que el proceso de denuncia sea accesible, eficiente y confiable, fortaleciendo la seguridad digital y la colaboración entre ciudadanía y autoridades competentes.",
+    "topic": "Introducción y alcance",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:4",
+    "source": "rel",
+    "q": "¿Qué puedo hacer con el formulario web?",
+    "a": "Permitir registrar denuncias de delitos cibernéticos con datos de contacto, descripción y evidencias, generar un número de seguimiento y proteger la confidencialidad de la información del usuario.",
+    "topic": "Introducción y alcance",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:5",
+    "source": "rel",
+    "q": "¿Cómo ingreso al formulario de denuncia cibernética?",
+    "a": "Entra desde un navegador actualizado a la dirección electrónica https://services.sspc.gob.mx/ciberincidente.",
+    "topic": "Uso del formulario web",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:6",
+    "source": "rel",
+    "q": "Después de ingresar al sitio, ¿qué debo hacer para registrar la denuncia?",
+    "a": "Capturar todos los datos requeridos en el formulario, introducir el código CAPTCHA y hacer clic en el botón 'Registrar'.",
+    "topic": "Uso del formulario web",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:7",
+    "source": "rel",
+    "q": "¿Qué es el CAPTCHA dentro del formulario de denuncia?",
+    "a": "Es un código de verificación que se muestra en pantalla y que debes escribir en el campo 'Ingresa Captcha' para confirmar que eres un usuario real y evitar registros automatizados.",
+    "topic": "Uso del formulario web",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:8",
+    "source": "rel",
+    "q": "¿Qué debo poner en los campos de Estado y Municipio?",
+    "a": "Debes seleccionar en cada catálogo el estado y el municipio donde se cometió el delito cibernético.",
+    "topic": "Campos del formulario",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:9",
+    "source": "rel",
+    "q": "¿Para qué es el campo 'Agregar delitos cibernéticos'?",
+    "a": "Permite seleccionar uno o varios tipos de delitos cibernéticos del catálogo que mejor describan el incidente que estás denunciando.",
+    "topic": "Campos del formulario",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:10",
+    "source": "rel",
+    "q": "¿Qué debo poner en los campos de nombre y apellidos?",
+    "a": "Necesitas poner nombre, apellido paterno y apellido materno usando letras mayúsculas, sin acentos ni signos de puntuación, con un máximo de 50 caracteres por campo.",
+    "topic": "Campos del formulario",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:11",
+    "source": "rel",
+    "q": "¿Qué necesito poner en el campo de correo electrónico en el formulario?",
+    "a": "Debe contener letras, números, puntos y el símbolo arroba, con un máximo de 50 caracteres, y debe ser una cuenta válida porque ahí se enviará el folio de la denuncia.",
+    "topic": "Campos del formulario",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:12",
+    "source": "rel",
+    "q": "¿Qué escribo en el campo 'Delito cibernético' del formulario?",
+    "a": "Se escribe una descripción de los hechos ocurridos utilizando letras, números y signos de puntuación, con un máximo de 1000 caracteres y un mínimo obligatorio de 100 caracteres.",
+    "topic": "Campos del formulario",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:13",
+    "source": "rel",
+    "q": "¿Cuál es el límite de tamaño para cada archivo adjunto como evidencia?",
+    "a": "Cada archivo que subas al sistema puede tener un peso máximo de hasta 5 megabytes.",
+    "topic": "Evidencias y archivos",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:14",
+    "source": "rel",
+    "q": "¿Puedo subir varios archivos de evidencia en una sola denuncia?",
+    "a": "Sí, se pueden agregar la cantidad de archivos necesarios de cada tipo, siempre que cada uno no exceda los 5 MB permitidos.",
+    "topic": "Evidencias y archivos",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:15",
+    "source": "rel",
+    "q": "¿Cómo escribo las direcciones web que se agregan como evidencia?",
+    "a": "Deben ser URLs que sirvan de evidencia del delito cibernético y deben iniciar con el prefijo http:// o https://.",
+    "topic": "Evidencias y archivos",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:16",
+    "source": "rel",
+    "q": "¿Qué tipos de archivos puedo subir como evidencia en el formulario?",
+    "a": "Puedes subir documentos en formato PDF, imágenes JPG o JPEG, audios MP3, OPUS, AAC u OGG y videos en formato MP4.",
+    "topic": "Evidencias y archivos",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:17",
+    "source": "rel",
+    "q": "¿Qué es una denuncia de delito cibernético?",
+    "a": "Es la denuncia ciudadana de un delito cibernético perpetrado en alguna ubicación geográfica, a la cual se le pueden adjuntar evidencias como archivos, URLs e imágenes.",
+    "topic": "Glosario y definiciones",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:18",
+    "source": "rel",
+    "q": "¿Qué es un ciberincidente?",
+    "a": "Es la denuncia de un delito cibernético registrada a través del formulario web.",
+    "topic": "Glosario y definiciones",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:19",
+    "source": "rel",
+    "q": "¿Quiénes se consideran 'usuarios' en el sistema de denuncias cibernéticas?",
+    "a": "Incluye a ciudadanos, víctimas y representantes legales que desean reportar incidentes relacionados con delitos en el entorno digital.",
+    "topic": "Glosario y definiciones",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:20",
+    "source": "rel",
+    "q": "¿Qué es delito cibernético en el manual?",
+    "a": "Es cualquier acto ilegal cometido usando tecnologías digitales, como computadoras e Internet, ya sea dirigido contra sistemas de información o usando las TIC para cometer otros delitos.",
+    "topic": "Glosario y definiciones",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:21",
+    "source": "rel",
+    "q": "¿Qué es la Plataforma Web según el glosario?",
+    "a": "Es el Sistema Web para la Administración de las Denuncias de Delitos Cibernéticos al que solo tienen acceso los enlaces de monitoreo.",
+    "topic": "Glosario y definiciones",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:22",
+    "source": "rel",
+    "q": "¿Qué recomendaciones ofrece el manual antes de enviar la denuncia?",
+    "a": "Tener toda la evidencia relevante a la mano, capturar la información con precisión y conservar una copia de la denuncia y de cualquier comprobante generado por el sistema.",
+    "topic": "Precisión y recomendaciones",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:23",
+    "source": "rel",
+    "q": "¿Puedo denunciar si no tengo toda la información o evidencia?",
+    "a": "Sí, puedes presentar la denuncia con la información de la que dispongas, aunque se recomienda aportar la mayor cantidad de datos y evidencias posibles.",
+    "topic": "Precisión y recomendaciones",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:24",
+    "source": "rel",
+    "q": "¿Por qué es tan importante la precisión de la información capturada en la denuncia?",
+    "a": "Porque la efectividad de la denuncia depende de detallar claramente hechos, fechas, horarios y evidencias; información imprecisa dificulta el análisis del caso por parte de las autoridades.",
+    "topic": "Precisión y recomendaciones",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:25",
+    "source": "rel",
+    "q": "¿Es confidencial la información que proporciono en la denuncia?",
+    "a": "Sí, la información se trata con estricta confidencialidad y solo se utiliza para estructurar adecuadamente el reporte de denuncia de delito cibernético, sin compartir datos con terceros salvo en los casos previstos por la ley.",
+    "topic": "Seguridad y confidencialidad",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:26",
+    "source": "rel",
+    "q": "¿Qué debo hacer si mi seguridad está en riesgo por un delito cibernético?",
+    "a": "Debes contactar de inmediato a las autoridades locales o llamar a los servicios de emergencia; la denuncia en línea es complementaria y no sustituye la atención inmediata en situaciones de riesgo.",
+    "topic": "Seguridad y confidencialidad",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:27",
+    "source": "rel",
+    "q": "¿Qué limitaciones tiene el sistema de denuncia en línea?",
+    "a": "El sistema no garantiza la resolución inmediata del caso ni la recuperación de daños; su función es facilitar la denuncia y el seguimiento inicial para las autoridades competentes.",
+    "topic": "Seguridad y confidencialidad",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:28",
+    "source": "rel",
+    "q": "¿Quién es responsable de la atención y seguimiento de las denuncias reportadas en el sistema?",
+    "a": "Los enlaces de monitoreo de las Unidades de Policía Cibernética de cada estado de la República Mexicana son responsables de la atención y seguimiento de las denuncias.",
+    "topic": "Seguridad y confidencialidad",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:29",
+    "source": "rel",
+    "q": "¿El sistema web realiza investigaciones o verificaciones de los delitos reportados?",
+    "a": "No, el sistema por sí mismo no realiza investigaciones ni verificaciones; únicamente facilita la recepción de la denuncia y el seguimiento inicial.",
+    "topic": "Seguridad y confidencialidad",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:30",
+    "source": "rel",
+    "q": "¿En qué momentos podría estar restringido el acceso al formulario web de denuncias cibernéticas?",
+    "a": "Aunque está disponible en línea para usuarios con acceso a internet, puede estar temporalmente restringido durante horarios de mantenimiento o actualizaciones del sistema.",
+    "topic": "Accesibilidad y requisitos técnicos",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:31",
+    "source": "rel",
+    "q": "¿Qué navegadores web recomienda el manual para usar el formulario?",
+    "a": "Te recomendamos usar versiones recientes de Firefox, Google Chrome y Microsoft Edge para acceder correctamente al formulario web.",
+    "topic": "Accesibilidad y requisitos técnicos",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:32",
+    "source": "rel",
+    "q": "¿Desde qué dispositivos se puede acceder al formulario de denuncias cibernéticas?",
+    "a": "Se puede acceder desde laptops, computadoras de escritorio y tabletas con conexión a internet y un navegador compatible.",
+    "topic": "Accesibilidad y requisitos técnicos",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:33",
+    "source": "rel",
+    "q": "¿Qué es el phishing según el catálogo?",
+    "a": "Es una técnica en la que un atacante envía vínculos por correo, SMS o mensajería instantánea para dirigir a la víctima a páginas falsas desde donde se descargan programas maliciosos que provocan brechas de seguridad.",
+    "topic": "Delitos cibernéticos (catálogo)",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:34",
+    "source": "rel",
+    "q": "¿Qué es el ransomware?",
+    "a": "Es el cifrado de la información contenida en un equipo informático mediante un programa malicioso; el atacante exige dinero a cambio de liberar el acceso a la información.",
+    "topic": "Delitos cibernéticos (catálogo)",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:35",
+    "source": "rel",
+    "q": "¿Qué es la suplantación de identidad digital?",
+    "a": "Es la apropiación de la identidad digital de una persona u organización para cometer agravios o fraudes electrónicos en contra de las víctimas.",
+    "topic": "Delitos cibernéticos (catálogo)",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:36",
+    "source": "rel",
+    "q": "¿Qué es el fraude al comercio electrónico?",
+    "a": "Es el fraude cometido a través de plataformas de comercio electrónico, donde el defraudador realiza compras o ventas sin cumplir los términos básicos de la operación, causando un daño económico a la contraparte.",
+    "topic": "Delitos cibernéticos (catálogo)",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:37",
+    "source": "rel",
+    "q": "¿Qué es el acoso escolar cibernético o cyberbullying?",
+    "a": "Es la situación en la que un niño o adolescente es molestado, amenazado o humillado por otro menor a través de internet, redes sociales u otros medios digitales.",
+    "topic": "Delitos cibernéticos (catálogo)",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:38",
+    "source": "rel",
+    "q": "Recomendación bancaria ante phishing.",
+    "a": "Revisar periódicamente movimientos y activar alertas para detectar irregularidades.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:39",
+    "source": "rel",
+    "q": "¿Qué es Apps de préstamo ilegítimas (montadeudas)?",
+    "a": "Es el conjunto de prácticas y criterios para aplicar Apps de préstamo ilegítimas (montadeudas) de forma efectiva y segura.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:40",
+    "source": "rel",
+    "q": "Correo electrónico inseguro y cómo detectarlo.",
+    "a": "Remitentes desconocidos, adjuntos sospechosos, enlaces no verificados, urgencia inusual y solicitud de datos sensibles.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:41",
+    "source": "rel",
+    "q": "Malware y ransomware y cómo detectarlo.",
+    "a": "Lentitud del sistema, archivos cifrados, ventanas emergentes, procesos desconocidos y extensiones extrañas en archivos.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:42",
+    "source": "rel",
+    "q": "Phishing y suplantación y cómo detectarlo.",
+    "a": "Correos urgentes, enlaces sospechosos, errores ortográficos, solicitud de credenciales y dominios similares pero falsos.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:43",
+    "source": "rel",
+    "q": "Redes sociales y privacidad y cómo detectarla.",
+    "a": "Perfiles falsos, robo de identidad, exposición de datos personales, configuración débil y publicaciones sin control de audiencia.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:44",
+    "source": "rel",
+    "q": "Seguridad en móviles y cómo detectarla.",
+    "a": "Apps de fuentes desconocidas, permisos excesivos, batería que se agota rápido, consumo inusual de datos y comportamiento extraño.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:45",
+    "source": "rel",
+    "q": "Teletrabajo inseguro y cómo detectarla.",
+    "a": "Redes WiFi sin protección, uso de dispositivos personales sin cifrado, falta de VPN, software desactualizado y accesos no autorizados.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:46",
+    "source": "rel",
+    "q": "¿Cuáles son tres tipos de malware.",
+    "a": "Ransomware, troyanos y spyware (también gusanos, botnets y criptominería ilícita).",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:47",
+    "source": "rel",
+    "q": "Consejo para compras en línea seguras.",
+    "a": "Verificar proveedor, opiniones, precios razonables, y evitar transferencias anónimas o enlaces sospechosos.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:48",
+    "source": "rel",
+    "q": "¿Cuáles son tres buenas prácticas clave en Contraseñas y gestores.",
+    "a": "1) Aplicar políticas claras; 2) Usar herramientas apropiadas; 3) Capacitar y verificar periódicamente.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:49",
+    "source": "rel",
+    "q": "medidas de comercio digital.",
+    "a": "No caer en ofertas sospechosas, verificar proveedores y evitar enlaces de origen desconocido.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:50",
+    "source": "rel",
+    "q": "medidas de contraseñas.",
+    "a": "Usar mayúsculas, minúsculas, números y símbolos; no guardarlas automáticamente; cambiarlas periódicamente y usarlas responsablemente.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:51",
+    "source": "rel",
+    "q": "medidas de denuncia.",
+    "a": "Acudir a instituciones que previenen delitos cibernéticos y denunciar conductas inapropiadas.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:52",
+    "source": "rel",
+    "q": "medidas de teletrabajo seguro.",
+    "a": "Proteger redes WiFi, cambiar contraseñas y usar VPN institucionales con software actualizado.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:53",
+    "source": "rel",
+    "q": "¿Qué es phishing.",
+    "a": "Técnica de engaño para obtener información de las personas mediante suplantación.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:54",
+    "source": "rel",
+    "q": "Dos fraudes comunes en banca y comercio electrónico.",
+    "a": "Vishing/Phishing para robar credenciales y tiendas falsas con ofertas irreales que desaparecen tras el pago.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:55",
+    "source": "rel",
+    "q": "Dos medidas básicas en móviles.",
+    "a": "Bloqueo con contraseña/biometría y actualización del sistema operativo.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:56",
+    "source": "rel",
+    "q": "Dos señales de un correo de phishing.",
+    "a": "Urgencia inusual o promesas poco comunes y enlaces que apuntan a sitios falsos no verificados.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:57",
+    "source": "rel",
+    "q": "Fui víctima de montadeudas: primer paso.",
+    "a": "Reunir evidencias (capturas, movimientos), reportar la app en la tienda, avisar a contactos y denunciar ante autoridades.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:58",
+    "source": "rel",
+    "q": "Medida recomendada al recibir un correo sospechoso.",
+    "a": "No abrir adjuntos ni hacer clic en enlaces; verificar remitente y autenticidad del mensaje.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:59",
+    "source": "rel",
+    "q": "Paso para evaluar un sitio web desconocido.",
+    "a": "Revisar dominio, candado conexión segura (https://), aviso de privacidad y datos de contacto verificables.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:60",
+    "source": "rel",
+    "q": "Prevención ransomware: nombra dos medidas.",
+    "a": "Mantener software actualizado y realizar copias de seguridad periódicas desconectadas o en la nube con cifrado.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:61",
+    "source": "rel",
+    "q": "Práctica: ¿está bien reutilizar la misma contraseña en varios servicios?",
+    "a": "No, reutilizar contraseñas incrementa el impacto de una sola filtración en múltiples cuentas.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:62",
+    "source": "rel",
+    "q": "Regla de oro tras leer un correo sospechoso.",
+    "a": "No hacer clic; ingresar manualmente a la dirección web oficial desde el navegador para verificar.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:63",
+    "source": "rel",
+    "q": "Regla: longitud mínima sugerida en una frase-contraseña.",
+    "a": "Usar frases con al menos 10 caracteres e incluir números y símbolos para aumentar la entropía.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:64",
+    "source": "rel",
+    "q": "Riesgo del correo electrónico en organizaciones.",
+    "a": "La variedad de adjuntos y enlaces puede introducir malware o filtrar información si no hay buenas prácticas.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:65",
+    "source": "rel",
+    "q": "Riesgo frecuente en redes sociales.",
+    "a": "Suplantación de identidad y robo de información personal para fines delictivos.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:66",
+    "source": "rel",
+    "q": "Riesgo: ¿qué pasa si no usamos contraseñas seguras?",
+    "a": "Aumenta la probabilidad de accesos no autorizados, robo de información e identidad y fraudes.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:67",
+    "source": "rel",
+    "q": "Señal de alarma al instalar una app de préstamo.",
+    "a": "Solicita permisos excesivos como contactos, cámara, micrófono, ubicación o archivos.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:68",
+    "source": "rel",
+    "q": "Señala un error común en Contraseñas y gestores y su consecuencia.",
+    "a": "Error: omitir controles básicos. Consecuencia: exposición a ataques o fugas de información.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:69",
+    "source": "rel",
+    "q": "Técnica: ejemplo de endurecimiento de una frase en contraseña.",
+    "a": "Transformar vocales por números, mezclar mayúsculas/minúsculas e insertar símbolos: p. ej. 'C0ntr4s3–4_S3G&r4_4235*'.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:70",
+    "source": "rel",
+    "q": "¿Cómo opera el ransomware a grandes rasgos?",
+    "a": "Engaña al usuario para ejecutar un archivo o enlace malicioso, cifra archivos o el sistema y exige un pago (generalmente en criptomonedas) para supuestamente liberarlos.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:71",
+    "source": "rel",
+    "q": "¿Cómo reconocer un sitio web seguro?",
+    "a": "Debe iniciar con https:// y mostrar un candado en la barra del navegador; además, el dominio debe corresponder a la institución real.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:72",
+    "source": "rel",
+    "q": "¿Es seguro cargar en centros públicos?",
+    "a": "Debe evitarse; pueden existir riesgos de inyección de malware o robo de datos.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:73",
+    "source": "rel",
+    "q": "¿Pagar el rescate garantiza recuperar la información?",
+    "a": "No, el pago no garantiza la liberación de los datos ni la restauración del equipo.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:74",
+    "source": "rel",
+    "q": "¿Para qué sirven los llaveros electrónicos de contraseñas?",
+    "a": "Para crear, almacenar y cifrar de forma segura usuarios y contraseñas, evitando reutilización y exposición.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:75",
+    "source": "rel",
+    "q": "¿Por qué es importante Apps de préstamo ilegítimas (montadeudas)?",
+    "a": "Porque reduce riesgos como filtración de datos, fraudes, suplantación y pérdida de información.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:76",
+    "source": "rel",
+    "q": "¿Por qué es importante respaldar archivos en teletrabajo?",
+    "a": "Para poder recuperar la información ante incidentes como ransomware, fallas de equipo o borrados accidentales.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:77",
+    "source": "rel",
+    "q": "¿Por qué evitar software pirata?",
+    "a": "Porque puede venir modificado con malware y abrir puertas a infecciones y robo de información.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:78",
+    "source": "rel",
+    "q": "¿Por qué los móviles representan un reto de seguridad?",
+    "a": "Por su movilidad y la gran cantidad de datos que almacenan si no se protegen adecuadamente.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:79",
+    "source": "rel",
+    "q": "¿Por qué no se deben escribir contraseñas en papeles visibles?",
+    "a": "Porque pueden ser vistas o fotografiadas y facilitar accesos no autorizados.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:80",
+    "source": "rel",
+    "q": "¿Qué es 'Localizar y recuperar dispositivo' y por qué activarlo?",
+    "a": "Función del fabricante para hallar, bloquear o borrar el equipo en caso de pérdida o robo.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:81",
+    "source": "rel",
+    "q": "¿Qué es Contraseñas y gestores?",
+    "a": "Es el conjunto de prácticas y criterios para aplicar Contraseñas y gestores de forma efectiva y segura.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:82",
+    "source": "rel",
+    "q": "¿Qué es Malware y ransomware?",
+    "a": "Es el conjunto de prácticas y criterios para aplicar Malware y ransomware de forma efectiva y segura.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:83",
+    "source": "rel",
+    "q": "¿Qué es Seguridad en móviles?",
+    "a": "Es el conjunto de prácticas y criterios para aplicar Seguridad en móviles de forma efectiva y segura.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:84",
+    "source": "rel",
+    "q": "¿Qué es Sitios falsos y comercio electrónico?",
+    "a": "Es el conjunto de prácticas y criterios para aplicar Sitios falsos y comercio electrónico de forma efectiva y segura.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:85",
+    "source": "rel",
+    "q": "¿Qué es fraude electrónico?",
+    "a": "Estafa cometida por medios digitales, a menudo combinando ingeniería social para robar dinero o datos.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:86",
+    "source": "rel",
+    "q": "¿Qué es malware?",
+    "a": "Software malintencionado diseñado para causar daño o comprometer sistemas y datos.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:87",
+    "source": "rel",
+    "q": "¿Qué es una contraseña segura?",
+    "a": "Aquella que combina longitud, complejidad y un uso responsable para proteger el acceso a servicios, dispositivos y archivos.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:88",
+    "source": "rel",
+    "q": "¿Qué hacer con WiFi/Bluetooth cuando no se usan?",
+    "a": "Apagarlos para reducir superficie de ataque y rastreo.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:89",
+    "source": "rel",
+    "q": "¿Qué riesgos existen si se trabaja remoto sin pautas de seguridad?",
+    "a": "Pueden infectar dispositivos con malware, robar o alterar información, suplantar identidad, defraudar y espiar a las personas.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:90",
+    "source": "rel",
+    "q": "¿Qué son 'montadeudas'?",
+    "a": "Apps de préstamos ilegítimos que extraen datos del dispositivo y luego extorsionan con difamación y cobros abusivos.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:91",
+    "source": "rel",
+    "q": "¿Qué utilidad tiene el cifrado de equipos en teletrabajo?",
+    "a": "Protege la confidencialidad de la información en caso de robo o pérdida del dispositivo.",
+    "topic": "General",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:92",
+    "source": "rel",
+    "q": "¿Qué ocurre cuando el reporte no es anónimo y el usuario es persona física y el incidente le pasó a él?",
+    "a": "Deben mostrarse solo los controles de la sección Datos persona afectada; las secciones Datos persona que reporta y Datos persona moral permanecen deshabilitadas.",
+    "topic": "Anonimato y tipos de persona",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:93",
+    "source": "rel",
+    "q": "¿Qué ocurre cuando el reporte no es anónimo, el usuario es persona física, el incidente le pasó a él y es extranjero?",
+    "a": "Se habilita la sección Datos persona afectada excepto el campo CURP, y se deshabilitan las secciones Datos persona que reporta y Datos persona moral.",
+    "topic": "Anonimato y tipos de persona",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:94",
+    "source": "rel",
+    "q": "¿Qué ocurre cuando el reporte no es anónimo y el usuario NO es persona física?",
+    "a": "Se habilita únicamente la sección Datos persona moral y se deshabilitan las secciones Datos persona afectada y Datos persona que reporta.",
+    "topic": "Anonimato y tipos de persona",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:95",
+    "source": "rel",
+    "q": "¿Qué hace el sistema al seleccionar la fecha de nacimiento?",
+    "a": "Valida que la fecha no sea futura, calcula la edad y selecciona automáticamente la opción Sí o No en el radio button Eres menor de edad según si la edad es menor o mayor o igual a 18 años.",
+    "topic": "Validaciones de datos personales",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:96",
+    "source": "rel",
+    "q": "¿Cómo debe manejar el sistema la carga de múltiples archivos?",
+    "a": "Debe permitir cargar archivo por archivo, enlistarlos en una tabla con opción para eliminarlos y contabilizar únicamente los archivos activos para el límite de tamaño total.",
+    "topic": "Reporte de ciberseguridad",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:97",
+    "source": "rel",
+    "q": "¿Qué condición debe cumplirse para generar el PDF del reporte cibernético?",
+    "a": "Solo se debe permitir generar el PDF cuando el estatus de seguimiento del reporte sea Concluido reporte actualizado o Concluido reporte correcto.",
+    "topic": "Generación de reporte PDF",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:98",
+    "source": "rel",
+    "q": "¿Qué hace el sistema al generar el PDF del reporte cibernético?",
+    "a": "Crea el documento en formato PDF con la información validada del incidente, deshabilita las opciones de edición relacionadas y envía automáticamente el archivo al correo de contacto del usuario.",
+    "topic": "Generación de reporte PDF",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:99",
+    "source": "rel",
+    "q": "¿Qué datos son obligatorios para registrar un nuevo usuario?",
+    "a": "Se requiere capturar al menos nombres, apellido paterno, apellido materno, correo electrónico, nombre de usuario basado en CURP, contraseña, confirmación de contraseña, estado y municipio donde labora.",
+    "topic": "Usuarios y roles",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:100",
+    "source": "rel",
+    "q": "¿Qué se valida en las pruebas sobre radio buttons de anonimato y tipo de persona?",
+    "a": "Se valida el orden de las preguntas y que, al seleccionar diferentes combinaciones, se habiliten o deshabiliten las secciones correctas de datos personales tal como indican las reglas de negocio.",
+    "topic": "Pruebas y calidad",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:101",
+    "source": "rel",
+    "q": "Guíame paso a paso para determinar si un reporte es falso.",
+    "a": "1) Revisa si la información del reporte es coherente y verificable. 2) Intenta contactar al usuario por los medios registrados. 3) Si no hay respuesta después de los intentos establecidos, valida si la evidencia es insuficiente o contradictoria. 4) Documenta en las notas del sistema por qué consideras que el reporte es falso. 5) Cambia el estatus a Concluido reporte falso y guarda los cambios. 6) Si existe procedimiento interno, informa al responsable o supervisor.",
+    "topic": "Guía paso a paso - Clasificación de reportes",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:102",
+    "source": "rel",
+    "q": "¿Por qué es importante proteger la confidencialidad de la información en la Plataforma Web?",
+    "a": "Porque la plataforma maneja datos personales y evidencias sensibles; un uso indebido o divulgación no autorizada puede afectar a las víctimas y generar responsabilidades legales para la institución.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Avanzado"
+  },
+  {
+    "id": "rel:103",
+    "source": "rel",
+    "q": "¿Para qué sirve el Formulario de Registro de Reporte Cibernético?",
+    "a": "Sirve para capturar toda la información necesaria del incidente, como datos de la persona afectada, datos de la persona que reporta, descripción de los hechos, medios por los que ocurrió y evidencias adjuntas.",
+    "topic": "Formulario de registro",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:104",
+    "source": "rel",
+    "q": "¿Qué mensaje se recomienda colocar para indicar campos obligatorios?",
+    "a": "Te recomendamos mostrar la leyenda Todos los datos marcados con asterisco (*) son obligatorios debajo del control de selección de idioma.",
+    "topic": "Formulario de registro",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:105",
+    "source": "rel",
+    "q": "¿Por qué no se debe permitir letras en campos numéricos como teléfono?",
+    "a": "Para evitar errores de captura y asegurar que los datos sean válidos para contactar al usuario o para análisis posteriores.",
+    "topic": "Validaciones de datos personales",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:106",
+    "source": "rel",
+    "q": "¿Qué control se sugiere para seleccionar el medio por el que sucedió el incidente?",
+    "a": "Se sugiere un control combobox que permita seleccionar opciones como red social, correo electrónico, sitio web o aplicación móvil.",
+    "topic": "Reporte de ciberseguridad",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:107",
+    "source": "rel",
+    "q": "¿Para qué sirven las etiquetas descriptivas en la sección Reporte de ciberseguridad?",
+    "a": "Guían al usuario indicando claramente qué información debe proporcionar en cada campo, por ejemplo Descripción de los hechos o Agregar las URLs donde ocurrió.",
+    "topic": "Reporte de ciberseguridad",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:108",
+    "source": "rel",
+    "q": "¿Qué medios de contacto se utilizan para comunicarse con el usuario?",
+    "a": "Los principales medios de contacto son la llamada telefónica y el correo electrónico registrados en el formulario.",
+    "topic": "Módulo administración y seguimiento",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:109",
+    "source": "rel",
+    "q": "¿Qué estatus se asigna a todos los reportes cuando se registran?",
+    "a": "Por regla general, todos los reportes cibernéticos se crean con estatus de seguimiento Pendiente.",
+    "topic": "Estatus y prioridad",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:110",
+    "source": "rel",
+    "q": "¿Para qué sirve la prioridad del reporte?",
+    "a": "Permite ordenar y filtrar los casos según su importancia, asegurando que los incidentes más críticos se atiendan primero.",
+    "topic": "Estatus y prioridad",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:111",
+    "source": "rel",
+    "q": "¿Qué requisitos debe cumplir la contraseña de un usuario?",
+    "a": "La contraseña debe tener un mínimo de 8 caracteres, incluir mayúsculas, minúsculas y al menos un número para aumentar la seguridad.",
+    "topic": "Usuarios y roles",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:112",
+    "source": "rel",
+    "q": "¿Qué ocurre al iniciar sesión correctamente en el sistema?",
+    "a": "Se crea una sesión que identifica al usuario autenticado, se cargan los menús correspondientes a su rol y se redirige al panel principal o dashboard.",
+    "topic": "Menús del sistema",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:113",
+    "source": "rel",
+    "q": "¿Cómo puede ayudarte este chatbot durante el uso del sistema de reportes?",
+    "a": "Puede guiarte paso a paso por el proceso de registro de incidentes, explicar el significado de cada campo, indicarte qué estatus y prioridad aplicar y recordarte las reglas de negocio cuando tengas dudas.",
+    "topic": "Visión general del sistema",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:114",
+    "source": "rel",
+    "q": "Guíame paso a paso para registrar un nuevo reporte cibernético desde cero.",
+    "a": "Claro, sigue estos pasos: 1) Entra a la página del Sistema de Registro de Reporte Cibernético. 2) Selecciona el idioma. 3) Responde si quieres presentar el reporte de forma anónima. 4) Si no es anónimo, captura tus datos personales según corresponda (persona física o moral). 5) Llena la sección de Reporte de ciberseguridad: medio por el que ocurrió, descripción de los hechos, fechas y URLs. 6) Adjunta tus evidencias. 7) Revisa que todo esté completo y da clic en Enviar. 8) Conserva el folio que te muestre el sistema.",
+    "topic": "Guía paso a paso - Registro",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:115",
+    "source": "rel",
+    "q": "Ya estoy en el formulario, ¿cuál es el primer dato que debo revisar?",
+    "a": "Primero revisa el campo Idioma. Asegúrate de seleccionar el idioma en el que quieres ver las instrucciones y mensajes del sistema. Después de eso, continúa con la decisión de reporte anónimo o no anónimo.",
+    "topic": "Guía paso a paso - Registro",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:116",
+    "source": "rel",
+    "q": "Guíame paso a paso para capturar la fecha de nacimiento correctamente.",
+    "a": "1) Abre el control de calendario en el campo Fecha de nacimiento. 2) Selecciona primero el año correcto, luego el mes y finalmente el día. 3) Verifica que la fecha no sea mayor a la fecha actual. 4) Al seleccionar la fecha, revisa que el sistema calcule tu edad y marque correctamente si eres menor de edad. 5) Si aparece un mensaje de error por fecha futura, corrige el valor antes de continuar.",
+    "topic": "Guía paso a paso - Validaciones",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:117",
+    "source": "rel",
+    "q": "No sé qué poner en el campo Medio por el que sucedió el incidente, ayúdame paso a paso.",
+    "a": "1) Ubica el control Medio por el que sucedió el incidente. 2) Despliega el combobox. 3) Elige la opción que más se acerque a tu caso: red social, correo electrónico, sitio web, aplicación móvil, llamada telefónica u otro. 4) Si seleccionas Otro, utiliza el cuadro de texto adicional para especificar el medio. 5) Confirma que tu selección coincide con lo que describiste en el campo de descripción.",
+    "topic": "Guía paso a paso - Descripción del incidente",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:118",
+    "source": "rel",
+    "q": "Explícame paso a paso cómo adjuntar evidencias al reporte.",
+    "a": "1) Ve a la sección de archivos adjuntos en el formulario. 2) Da clic en el botón para seleccionar archivo. 3) En la ventana emergente, busca en tu computadora la imagen, documento, audio o video relacionado con el incidente. 4) Selecciona el archivo y confirma. 5) Verifica que aparezca en la lista de archivos cargados. 6) Si te equivocaste, usa el botón Eliminar de esa fila. 7) Repite el proceso para cada evidencia, respetando el límite de tamaño permitido.",
+    "topic": "Guía paso a paso - Evidencias",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:119",
+    "source": "rel",
+    "q": "Quiero que el chatbot me lleve de la mano para llenar todo el formulario, ¿cómo lo harías?",
+    "a": "Te guiaría en etapas: 1) Primero confirmaríamos si tu reporte será anónimo o no. 2) Luego te preguntaría si eres persona física o moral y si el incidente te ocurrió a ti. 3) Después iríamos campo por campo en la sección de datos personales, validando que todo sea coherente. 4) Más adelante te pediría que describas los hechos con detalle y seleccionemos juntos el medio por el que sucedió. 5) Finalmente te recordaría adjuntar evidencias y revisar toda la información antes de enviar.",
+    "topic": "Guía paso a paso - Asistencia del chatbot",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:120",
+    "source": "rel",
+    "q": "¿Qué es la Plataforma Web de delitos cibernéticos?",
+    "a": "Es un sitio web que permite a las Unidades de Policía Cibernética registrar, administrar y dar seguimiento a las denuncias de delitos cibernéticos reportadas por la ciudadanía.",
+    "topic": "Plataforma Web",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:121",
+    "source": "rel",
+    "q": "¿A quién va dirigida la Plataforma Web?",
+    "a": "Está dirigida a los Enlaces de Monitoreo de las Policías Cibernéticas Estatales, quienes son responsables de gestionar las denuncias dentro del sistema.",
+    "topic": "Plataforma Web",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:122",
+    "source": "rel",
+    "q": "¿Qué es delito cibernético en el contexto de la plataforma?",
+    "a": "Es cualquier conducta ilícita que utiliza tecnologías digitales, como computadoras, redes o internet, ya sea como medio o como objetivo del ataque.",
+    "topic": "Conceptos básicos",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:123",
+    "source": "rel",
+    "q": "¿Para qué es el campo Incidente o Hechos en la denuncia?",
+    "a": "Sirve para describir de forma detallada lo que ocurrió, cómo se presentó el delito cibernético y cualquier información relevante proporcionada por la persona denunciante.",
+    "topic": "Gestión de denuncias",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:124",
+    "source": "rel",
+    "q": "¿Qué evidencia se puede adjuntar como Archivos?",
+    "a": "Se pueden adjuntar imágenes, documentos, capturas de pantalla, videos u otros archivos digitales que ayuden a demostrar el hecho denunciado.",
+    "topic": "Gestión de denuncias",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:125",
+    "source": "rel",
+    "q": "¿Qué información contiene el campo Urls de la denuncia?",
+    "a": "Incluye las direcciones web, perfiles, enlaces a publicaciones o sitios involucrados en el delito cibernético o que sirven como evidencia de lo ocurrido.",
+    "topic": "Gestión de denuncias",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:126",
+    "source": "rel",
+    "q": "¿Qué es la Ficha en PDF de la denuncia?",
+    "a": "Es un documento en formato PDF que resume la información de la denuncia y sirve como constancia formal del reporte realizado a través de la Plataforma Web.",
+    "topic": "Gestión de denuncias",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:127",
+    "source": "rel",
+    "q": "¿Qué recomendaciones hay sobre el manejo de contraseñas del sistema?",
+    "a": "Te recomendamos usar contraseñas robustas con combinación de letras, números y caracteres especiales, no compartirlas con nadie y cambiarlas de forma periódica.",
+    "topic": "Seguridad y buenas prácticas",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:128",
+    "source": "rel",
+    "q": "¿La Plataforma Web realiza por sí misma la investigación del delito?",
+    "a": "No, la Plataforma solo gestiona la información de las denuncias; la investigación formal y las acciones legales corresponden a las autoridades competentes.",
+    "topic": "Alcance del sistema",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "rel:129",
+    "source": "rel",
+    "q": "Paso 1 del flujo general, ¿qué hace el usuario?",
+    "a": "El usuario ingresa a la URL pública del sistema y llena el Formulario de Registro de Reporte Cibernético con los datos personales y la descripción del incidente.",
+    "topic": "Visión general del sistema",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:130",
+    "source": "rel",
+    "q": "Paso 2 del flujo general, ¿qué hace el sistema después de registrar el incidente?",
+    "a": "El sistema valida la información capturada, guarda el reporte y envía al usuario un mensaje con el folio de registro del incidente cibernético.",
+    "topic": "Visión general del sistema",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:131",
+    "source": "rel",
+    "q": "¿Qué campos se consideran obligatorios en el formulario?",
+    "a": "Son obligatorios todos los campos marcados con un asterisco, por ejemplo idioma, nombre, datos de contacto, fecha de los hechos y medio por el que sucedieron los hechos.",
+    "topic": "Formulario de registro",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:132",
+    "source": "rel",
+    "q": "¿Qué se captura en la sección Datos persona afectada?",
+    "a": "Se capturan los datos de la persona que sufrió directamente el incidente, como nombre completo, fecha de nacimiento, CURP cuando aplique, datos de contacto y domicilio.",
+    "topic": "Formulario de registro",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:133",
+    "source": "rel",
+    "q": "¿Qué se captura en la sección Datos persona que reporta?",
+    "a": "Se registran los datos de la persona que realiza el reporte cuando es distinta de la persona afectada, incluyendo nombre, relación con la víctima y datos de contacto.",
+    "topic": "Formulario de registro",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:134",
+    "source": "rel",
+    "q": "¿Qué se captura en la sección Datos persona moral?",
+    "a": "Debes registrar los datos de la organización afectada, como razón social, RFC, domicilio y datos de contacto del representante.",
+    "topic": "Formulario de registro",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:135",
+    "source": "rel",
+    "q": "¿Qué controla la pregunta Le gustaría presentar su reporte de forma anónima?",
+    "a": "Determina si se mostrarán o no las secciones de datos personales; si el usuario elige reporte anónimo, se ocultan los controles de persona física, persona moral y persona que reporta.",
+    "topic": "Anonimato y tipos de persona",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:136",
+    "source": "rel",
+    "q": "¿Qué ocurre cuando el reporte es anónimo?",
+    "a": "No se muestran las secciones de Datos persona afectada, Datos persona que reporta ni Datos persona moral, y tampoco las preguntas adicionales sobre persona física o extranjero.",
+    "topic": "Anonimato y tipos de persona",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:137",
+    "source": "rel",
+    "q": "¿Por qué es importante validar la fecha de nacimiento en el formulario?",
+    "a": "Porque debe ser menor o igual a la fecha actual; además, el sistema calcula automáticamente la edad y determina si la persona es menor o mayor de edad.",
+    "topic": "Validaciones de datos personales",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:138",
+    "source": "rel",
+    "q": "¿Qué validación se recomienda para el campo CURP?",
+    "a": "Te recomendamos agregar un enlace a la página oficial para consultar la CURP y verificar que el formato capturado por el usuario sea correcto.",
+    "topic": "Validaciones de datos personales",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:139",
+    "source": "rel",
+    "q": "¿Qué validación se hace sobre la fecha de los hechos del incidente?",
+    "a": "La fecha de los hechos debe ser igual o menor a la fecha en que se registra el reporte; el sistema no debe permitir fechas futuras.",
+    "topic": "Validaciones de incidente",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:140",
+    "source": "rel",
+    "q": "¿Qué mensaje se debe mostrar si el usuario escribe manualmente una fecha de los hechos futura?",
+    "a": "Se sugiere mostrar un mensaje como La fecha de los hechos no puede ser futura para indicar que debe corregir el valor.",
+    "topic": "Validaciones de incidente",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:141",
+    "source": "rel",
+    "q": "¿Qué campo se recomienda para la fecha de los hechos?",
+    "a": "Te recomendamos un control tipo calendario o date picker que limite la selección al año y mes actual, facilitando la validación.",
+    "topic": "Validaciones de incidente",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:142",
+    "source": "rel",
+    "q": "¿Qué información se solicita en la sección Reporte de ciberseguridad?",
+    "a": "Necesitas correo de contacto, código postal, estado, municipio, colonia, medio por el que sucedió el incidente, descripción de cómo ocurrió, URLs relacionadas y archivos adjuntos como evidencia.",
+    "topic": "Reporte de ciberseguridad",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:143",
+    "source": "rel",
+    "q": "¿Qué tipos de archivos se pueden adjuntar como evidencia?",
+    "a": "Se sugiere permitir archivos de imagen, documentos y medios como jpg, jpeg, png, pdf, docx, mp3, aac, opus, ogg y mp4, siempre respetando el tamaño máximo configurado.",
+    "topic": "Reporte de ciberseguridad",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:144",
+    "source": "rel",
+    "q": "¿Qué ocurre si el usuario no responde al correo en el tiempo definido?",
+    "a": "El reporte puede cambiar al estatus Concluido no se contactó al usuario después de agotar el seguimiento por correo electrónico.",
+    "topic": "Módulo administración y seguimiento",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:145",
+    "source": "rel",
+    "q": "¿Qué regla se aplica al correo electrónico del usuario?",
+    "a": "El correo electrónico debe ser único en la base de datos; si ya existe, el sistema debe mostrar un mensaje de error e impedir el registro duplicado.",
+    "topic": "Usuarios y roles",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:146",
+    "source": "rel",
+    "q": "¿Cómo se almacenan las contraseñas en la base de datos?",
+    "a": "Las contraseñas se almacenan de forma encriptada, nunca en texto plano, para proteger la información de los usuarios.",
+    "topic": "Usuarios y roles",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:147",
+    "source": "rel",
+    "q": "¿Qué información se muestra en la tabla de roles?",
+    "a": "La tabla de roles incluye campos como nombre del rol, nivel de gobierno, opción para editar y un indicador de si el rol está activo.",
+    "topic": "Usuarios y roles",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:148",
+    "source": "rel",
+    "q": "¿Por qué son importantes las pruebas de formulario descritas en el proyecto?",
+    "a": "Porque verifican que los controles, etiquetas, validaciones de fechas, reglas de anonimato y adjuntos funcionen según las reglas de negocio antes de poner el sistema en producción.",
+    "topic": "Pruebas y calidad",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:149",
+    "source": "rel",
+    "q": "¿Qué se revisa en las pruebas de cambio de texto e idioma?",
+    "a": "Se revisa que la etiqueta Idioma se muestre correctamente, que el combo box permita seleccionar español o inglés y que el texto dinámico se actualice según la elección del usuario.",
+    "topic": "Pruebas y calidad",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:150",
+    "source": "rel",
+    "q": "¿Qué se verifica en las pruebas de fecha de nacimiento y edad?",
+    "a": "Se comprueba que no se puedan registrar fechas futuras, que la edad se calcule automáticamente y que se marque correctamente si la persona es menor de edad.",
+    "topic": "Pruebas y calidad",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:151",
+    "source": "rel",
+    "q": "Explícame paso a paso la parte de anonimato del reporte.",
+    "a": "1) Localiza la pregunta ¿Le gustaría presentar su reporte de forma anónima? 2) Si eliges Sí, el sistema ocultará las secciones de datos personales y solo llenarás la parte de incidente. 3) Si eliges No, aparecerán preguntas adicionales sobre si eres persona física y si el incidente te ocurrió a ti. 4) Según tus respuestas, el sistema mostrará la sección correcta: persona afectada, persona que reporta y/o persona moral. 5) Verifica que solo aparezcan las secciones que correspondan a tu caso antes de continuar.",
+    "topic": "Guía paso a paso - Anonimato",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:152",
+    "source": "rel",
+    "q": "Soy persona física y el incidente me pasó a mí, ¿qué debo llenar exactamente?",
+    "a": "En ese caso: 1) Responde No a la opción de reporte anónimo. 2) Indica que Sí eres persona física. 3) Marca que el incidente Sí te ocurrió a ti. 4) Llena solo la sección Datos persona afectada con tu nombre, fecha de nacimiento, CURP si aplica, teléfono, correo y domicilio. 5) Verifica que no aparezcan las secciones de persona moral ni persona que reporta.",
+    "topic": "Guía paso a paso - Datos personales",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:153",
+    "source": "rel",
+    "q": "El incidente no me pasó a mí, lo reporto por otra persona. ¿Qué pasos sigo?",
+    "a": "1) Marca que el reporte no es anónimo. 2) Indica que eres persona física. 3) Responde que el incidente NO te ocurrió a ti. 4) Llena la sección Datos persona afectada con la información de la víctima. 5) Llena la sección Datos persona que reporta con tus datos. 6) Asegúrate de que la sección persona moral no esté habilitada, salvo que también sea una empresa afectada.",
+    "topic": "Guía paso a paso - Datos personales",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:154",
+    "source": "rel",
+    "q": "Soy extranjero y el incidente me ocurrió a mí, ¿qué debo hacer en el formulario?",
+    "a": "1) Selecciona que el reporte no es anónimo. 2) Indica que eres persona física. 3) Marca que el incidente Sí te ocurrió a ti. 4) Responde que eres extranjero. 5) Llena la sección Datos persona afectada excepto el campo CURP, el cual debe quedar deshabilitado. 6) Continúa con la sección de Reporte de ciberseguridad.",
+    "topic": "Guía paso a paso - Datos de extranjero",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:155",
+    "source": "rel",
+    "q": "Quiero registrar el incidente, pero no sé cómo describir los hechos. ¿Me guías?",
+    "a": "Claro: 1) En la sección Reporte de ciberseguridad, ubica el campo Descripción de los hechos. 2) Escribe cronológicamente qué ocurrió: cómo inició el contacto, qué mensajes o enlaces recibiste y qué acciones realizaste. 3) Incluye fechas aproximadas, nombres de usuarios o perfiles y montos si hubo pérdida económica. 4) Evita datos sensibles como contraseñas. 5) Revisa que el texto sea claro y sin abreviaturas confusas.",
+    "topic": "Guía paso a paso - Descripción del incidente",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:156",
+    "source": "rel",
+    "q": "El usuario ya respondió a mi correo con más información, ¿qué pasos sigo en el sistema?",
+    "a": "1) Revisa el contenido del correo y descarga cualquier evidencia adicional. 2) Ingresa al sistema y abre el reporte correspondiente. 3) Actualiza la descripción de los hechos con la nueva información. 4) Adjunta los archivos adicionales como evidencias. 5) Cambia el estatus a Concluido reporte actualizado o Concluido reporte correcto, según corresponda. 6) Si está listo, procede a generar el PDF del reporte.",
+    "topic": "Guía paso a paso - Actualización de reporte",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:157",
+    "source": "rel",
+    "q": "¿Qué información básica se captura en un registro de denuncia?",
+    "a": "Debes registrar los datos como identificador de la denuncia, fecha, estatus, IP de origen, nombre de contacto, correo electrónico, teléfono, entidad y municipio, así como la descripción de los hechos y los delitos asociados.",
+    "topic": "Gestión de denuncias",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "rel:158",
+    "source": "rel",
+    "q": "¿Para qué es el campo Delitos en la denuncia?",
+    "a": "Permite seleccionar uno o varios tipos de delitos cibernéticos que se relacionan con el incidente descrito, de acuerdo con la clasificación establecida en la Plataforma Web.",
+    "topic": "Gestión de denuncias",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base_txt:0",
+    "source": "base",
+    "q": "¿Qué significa “Eres persona física”?",
+    "a": "Quiere decir si quien hace el reporte es una persona individual. Si el reporte lo hace una empresa, institución o grupo, entonces no sería persona física.",
+    "topic": "Anonimato y tipos de persona",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base_txt:1",
+    "source": "base",
+    "q": "¿Qué significa “¿Esto te pasó a ti?”",
+    "a": "Esta pregunta es para saber si el incidente te ocurrió directamente a ti o si estás reportando algo que le pasó a otra persona.",
+    "topic": "Anonimato y tipos de persona",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base_txt:2",
+    "source": "base",
+    "q": "¿Para qué sirve la pregunta “¿Es usted extranjero?”",
+    "a": "Sirve para saber si la persona que hace el reporte es extranjera. Solo debes responder de acuerdo con tu situación.",
+    "topic": "Anonimato y tipos de persona",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base_txt:3",
+    "source": "base",
+    "q": "¿Qué datos son obligatorios?",
+    "a": "Todos los campos que tienen un asterisco (*) son obligatorios. Es importante llenarlos para poder enviar el reporte.",
+    "topic": "Formulario de registro",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base_txt:4",
+    "source": "base",
+    "q": "¿Qué correo electrónico debo escribir?",
+    "a": "Debes poner un correo que uses con frecuencia y que esté activo, ya que puede servir para dar seguimiento a tu reporte.",
+    "topic": "Campos del formulario",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base_txt:5",
+    "source": "base",
+    "q": "¿Qué fecha debo capturar?",
+    "a": "La fecha en que ocurrieron los hechos. Si no la recuerdas exactamente, puedes poner una aproximada.",
+    "topic": "Validaciones de incidente",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base_txt:6",
+    "source": "base",
+    "q": "¿Qué fecha debo poner en “Fecha de los hechos”?",
+    "a": "Debes escribir la fecha en la que ocurrió el incidente. Si no recuerdas el día exacto, puedes poner una fecha aproximada.",
+    "topic": "Validaciones de incidente",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base_txt:7",
+    "source": "base",
+    "q": "¿Qué ubicación debo registrar?",
+    "a": "La del lugar donde ocurrió el incidente.",
+    "topic": "Campos del formulario",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base_txt:8",
+    "source": "base",
+    "q": "¿Qué código postal debo registrar?",
+    "a": "Debes escribir el código postal del lugar donde ocurrieron los hechos.",
+    "topic": "Campos del formulario",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base_txt:9",
+    "source": "base",
+    "q": "¿Qué estado, municipio y colonia debo poner?",
+    "a": "Debes capturar los datos del lugar donde pasó el incidente. Procura que sean correctos y coincidan entre sí.",
+    "topic": "Campos del formulario",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base_txt:10",
+    "source": "base",
+    "q": "¿Qué medio debo seleccionar?",
+    "a": "El canal por el que sucedió el hecho, por ejemplo llamada, correo, red social o página web.",
+    "topic": "Guía paso a paso - Descripción del incidente",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base_txt:11",
+    "source": "base",
+    "q": "¿Qué debo elegir en “¿A través de qué medio sucedió?”",
+    "a": "Debes seleccionar el medio por el que ocurrió el incidente, por ejemplo: llamada telefónica, correo electrónico, red social, página web, mensaje o cualquier otro que corresponda.",
+    "topic": "Guía paso a paso - Descripción del incidente",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base_txt:12",
+    "source": "base",
+    "q": "¿Qué debo escribir en “¿Cómo ocurrió?”",
+    "a": "Escribe de forma clara qué pasó, cómo comenzó, por qué medio sucedió y cualquier detalle importante que ayude a entender mejor el caso.",
+    "topic": "Guía paso a paso - Descripción del incidente",
+    "difficulty": "Intermedio"
+  },
+  {
+    "id": "base_txt:13",
+    "source": "base",
+    "q": "¿Puedo agregar enlaces?",
+    "a": "Sí, siempre que sean válidos y estén relacionados con el caso.",
+    "topic": "Evidencias y archivos",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base_txt:14",
+    "source": "base",
+    "q": "¿Puedo agregar enlaces o páginas web relacionadas con el incidente?",
+    "a": "Sí. Puedes agregar ligas o páginas web relacionadas con el hecho, siempre que sean válidas y tengan relación con tu reporte.",
+    "topic": "Evidencias y archivos",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base_txt:15",
+    "source": "base",
+    "q": "¿Cuántos enlaces puedo agregar?",
+    "a": "Puedes agregar varios, hasta donde lo permita el sistema. Lo recomendable es incluir solo los que realmente estén relacionados con el caso.",
+    "topic": "Evidencias y archivos",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base_txt:16",
+    "source": "base",
+    "q": "¿Puedo adjuntar archivos como evidencia?",
+    "a": "Sí. Puedes subir archivos que ayuden a comprobar o explicar mejor lo sucedido, siempre que estén en los formatos permitidos.",
+    "topic": "Evidencias y archivos",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base_txt:17",
+    "source": "base",
+    "q": "¿Es obligatorio subir archivos?",
+    "a": "No siempre. Pero si cuentas con evidencia, es recomendable adjuntarla para respaldar tu reporte.",
+    "topic": "Evidencias y archivos",
+    "difficulty": "Básico"
+  },
+  {
+    "id": "base_txt:18",
+    "source": "base",
+    "q": "¿Puedo hacer mi reporte de forma anónima?",
+    "a": "Sí, el formulario permite realizar el reporte de forma anónima.",
+    "topic": "Anonimato y tipos de persona",
+    "difficulty": "Intermedio"
+  }
+]

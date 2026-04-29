@@ -1,0 +1,46 @@
+# ==========================================
+# uiibot_unified — .gitignore
+# ==========================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+
+# Entorno virtual
+venv/
+.venv/
+env/
+.env.local
+
+# HuggingFace cache (modelos grandes, se descargan en el primer arranque)
+.cache/
+hf_cache/
+huggingface/
+*.gguf
+
+# ChromaDB (se regenera con rag_indexer.py)
+chroma_db/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

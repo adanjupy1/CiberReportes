@@ -1,0 +1,164 @@
+[
+	{
+		"id": "base_txt:0",
+		"source": "base",
+		"q": "¿Qué significa “Eres persona física”?",
+		"a": "Quiere decir si quien hace el reporte es una persona individual. Si el reporte lo hace una empresa, institución o grupo, entonces no sería persona física.",
+		"topic": "Anonimato y tipos de persona",
+		"difficulty": "Básico"
+	},
+	{
+		"id": "base_txt:1",
+		"source": "base",
+		"q": "¿Qué significa “¿Esto te pasó a ti?”",
+		"a": "Esta pregunta es para saber si el incidente te ocurrió directamente a ti o si estás reportando algo que le pasó a otra persona.",
+		"topic": "Anonimato y tipos de persona",
+		"difficulty": "Básico"
+	},
+	{
+		"id": "base_txt:2",
+		"source": "base",
+		"q": "¿Para qué sirve la pregunta “¿Es usted extranjero?”",
+		"a": "Sirve para saber si la persona que hace el reporte es extranjera. Solo debes responder de acuerdo con tu situación.",
+		"topic": "Guía paso a paso - Datos de extranjero",
+		"difficulty": "Intermedio"
+	},
+
+
+
+
+
+
+
+
+
+
+	{
+		"id": "base_txt:3",
+		"source": "base",
+		"q": "¿Qué datos son obligatorios?",
+		"a": "Todos los campos que tienen un asterisco (*) son obligatorios. Es importante llenarlos para la generación del reporte, de lo contrario no permitirá realizar el registro.",
+		"topic": "Formulario de registro",
+		"difficulty": "Intermedio"
+	},
+	{
+		"id": "base_txt:4",
+		"source": "base",
+		"q": "¿Qué correo electrónico debo escribir?",
+		"a": "Debes poner un correo al cual tengas acceso y que esté activo, ya que ahí se enviará el folio generado del registro del reporte.",
+		"topic": "Campos del formulario",
+		"difficulty": "Intermedio"
+	},
+	{
+		"id": "base_txt:5",
+		"source": "base",
+		"q": "¿Qué fecha debo capturar?",
+		"a": "La fecha en que ocurrieron los hechos. Si no la recuerdas exactamente, puedes poner una aproximada.",
+		"topic": "Validaciones de incidente",
+		"difficulty": "Intermedio"
+	},
+	{
+		"id": "base_txt:6",
+		"source": "base",
+		"q": "¿Qué fecha debo poner en “Fecha de los hechos”?",
+		"a": "Debes escribir la fecha en la que ocurrió el incidente. Si no recuerdas el día exacto, puedes poner una fecha aproximada.",
+		"topic": "Validaciones de incidente",
+		"difficulty": "Intermedio"
+	},
+	{
+		"id": "base_txt:7",
+		"source": "base",
+		"q": "¿Donde sucedieron los hechos?",
+		"a": "La del lugar donde ocurrió el incidente.",
+		"topic": "Campos del formulario",
+		"difficulty": "Básico"
+	},
+	{
+		"id": "base_txt:8",
+		"source": "base",
+		"q": "¿Qué código postal debo registrar?",
+		"a": "Debes escribir el código postal del lugar donde ocurrieron los hechos.",
+		"topic": "Campos del formulario",
+		"difficulty": "Básico"
+	},
+	{
+		"id": "base_txt:9",
+		"source": "base",
+		"q": "¿Qué estado, municipio y colonia debo poner?",
+		"a": "Debes capturar los datos del lugar donde pasó el incidente. Procura que sean correctos y coincidan entre sí.",
+		"topic": "Campos del formulario",
+		"difficulty": "Intermedio"
+	},
+	{
+		"id": "base_txt:10",
+		"source": "base",
+		"q": "¿Qué medio debo seleccionar?",
+		"a": "a travez de que medio sucedio la situacion, por ejemplo llamada, correo, red social o página web.",
+		"topic": "Guía paso a paso - Descripción del incidente",
+		"difficulty": "Básico"
+	},
+	{
+		"id": "base_txt:11",
+		"source": "base",
+		"q": "¿Qué debo elegir en “¿A través de qué medio sucedió?”",
+		"a": "Debes seleccionar a travez de donde ocurrió el incidente, por ejemplo: llamada telefónica, correo electrónico, red social, página web, mensaje o cualquier otro que corresponda.",
+		"topic": "Guía paso a paso - Descripción del incidente",
+		"difficulty": "Básico"
+	},
+	{
+		"id": "base_txt:12",
+		"source": "base",
+		"q": "¿Qué debo escribir en “¿Cómo ocurrió?”",
+		"a": "Escribe de forma clara qué pasó, cómo comenzó, por qué medio sucedió y cualquier detalle importante que ayude a entender mejor el caso.",
+		"topic": "Guía paso a paso - Descripción del incidente",
+		"difficulty": "Intermedio"
+	},
+	{
+		"id": "base_txt:13",
+		"source": "base",
+		"q": "¿Puedo agregar enlaces?",
+		"a": "Sí, siempre que sean válidos y estén relacionados con el caso.",
+		"topic": "Evidencias y archivos",
+		"difficulty": "Básico"
+	},
+	{
+		"id": "base_txt:14",
+		"source": "base",
+		"q": "¿Puedo agregar enlaces o páginas web relacionadas con el incidente?",
+		"a": "Sí. Puedes agregar ligas o páginas web relacionadas con el hecho, siempre que sean válidas y tengan relación con tu reporte.",
+		"topic": "Evidencias y archivos",
+		"difficulty": "Básico"
+	},
+	{
+		"id": "base_txt:15",
+		"source": "base",
+		"q": "¿Cuántos enlaces puedo agregar?",
+		"a": "Puedes agregar varios, hasta donde lo permita el sistema. Lo recomendable es incluir solo los que realmente estén relacionados con el caso.",
+		"topic": "Evidencias y archivos",
+		"difficulty": "Básico"
+	},
+	{
+		"id": "base_txt:16",
+		"source": "base",
+		"q": "¿Puedo adjuntar archivos como evidencia?",
+		"a": "Sí. Puedes subir archivos que ayuden a comprobar o explicar mejor lo sucedido, siempre que estén en los formatos permitidos.",
+		"topic": "Evidencias y archivos",
+		"difficulty": "Básico"
+	},
+	{
+		"id": "base_txt:17",
+		"source": "base",
+		"q": "¿Es obligatorio subir archivos?",
+		"a": "No siempre. Pero si cuentas con evidencia, es recomendable adjuntarla para respaldar tu reporte.",
+		"topic": "Evidencias y archivos",
+		"difficulty": "Básico"
+	},
+	{
+		"id": "base_txt:18",
+		"source": "base",
+		"q": "¿Puedo hacer mi reporte de forma anónima?",
+		"a": "Sí, el formulario permite realizar el reporte de forma anónima. Pero para que se registre tu solicitid es necesario agregar un correo electronico al cual tengas acceso.",
+		"topic": "Anonimato y tipos de persona",
+		"difficulty": "Intermedio"
+	}
+]

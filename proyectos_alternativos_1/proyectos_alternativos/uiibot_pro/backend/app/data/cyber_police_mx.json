@@ -1,0 +1,543 @@
+{
+  "states": {
+    "Aguascalientes": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE AGUASCALIENTES SSP",
+        "url": "https://www.aguascalientes.gob.mx/SSP/",
+        "phone": "9102055 Ext: 6605",
+        "whatsapp": "4493462341",
+        "facebook": "https://www.facebook.com/Policía-Cibernética-Aguascalientes-2147137598695580/",
+        "twitter": null,
+        "email": "policia.cibernetica@aguascalientes.gob.mx"
+      }
+    ],
+    "Baja California": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE BAJA CALIFORNIA FGE",
+        "url": "http://www.fgebc.gob.mx",
+        "phone": "911 y 089",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/fgebaja/",
+        "twitter": null,
+        "email": "denuncias.cibernetica@fgebc.gob.mx"
+      }
+    ],
+    "Baja California Sur": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE BAJA CALIFORNIA SUR SSP",
+        "url": "https://www.sspbcs.gob.mx/ssp/",
+        "phone": "(612) 175 0400 Ext: 1053",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/PoliciaEstatalCiberneticaBCS/",
+        "twitter": "@CiberneticaPGJE",
+        "email": "pepcibernetica@sspbcs.gob.mx"
+      },
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE BAJA CALIFORNIA SUR PGJ",
+        "url": null,
+        "phone": "6121655280",
+        "whatsapp": null,
+        "facebook": "https://facebook.com/ciberneticabcs/",
+        "twitter": "@CiberneticaPGJE",
+        "email": "cibernetica@pgjebcs.gob.mx"
+      }
+    ],
+    "Campeche": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE CAMPECHE SSP",
+        "url": "http://ssp.campeche.gob.mx",
+        "phone": "981 81 1 91 06 Ext: 10052",
+        "whatsapp": null,
+        "facebook": null,
+        "twitter": null,
+        "email": "unidad.cibernetica@ssp.campeche.gob.mx"
+      }
+    ],
+    "Chiapas": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE CHIAPAS SSP",
+        "url": "https://www.sspc.chiapas.gob.mx/",
+        "phone": "9616113958 y 800 221 14 84 Ext: 31019",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/PoliciaCiberneticaChiapas/",
+        "twitter": "@CiberneticaChis",
+        "email": "cibernetica@sspc.chiapas.gob.mx"
+      }
+    ],
+    "Chihuahua": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE CHIHUAHUA SSP",
+        "url": "http://www.chihuahua.gob.mx/",
+        "phone": "6144297315 Ext: 10955",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/secretariadeseguridadpublicachihuahua",
+        "twitter": "@SSPE_Chihuahua",
+        "email": "ciberpolicia.sspe@chihuahua.gob.mx"
+      },
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE CHIHUAHUA FGE",
+        "url": "http://fiscalia.chihuahua.gob.mx/",
+        "phone": "6144293300 Ext: 10832 y 10816",
+        "whatsapp": null,
+        "facebook": "https://facebook.com/ciberneticachih",
+        "twitter": "@ciberneticachih",
+        "email": "delitos.electronicos@chihuahua.gob.mx"
+      }
+    ],
+    "Ciudad de México": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DE LA CIUDAD DE MÉXICO",
+        "url": "https://www.ssc.cdmx.gob.mx/organizacion-policial/subsecretaria-de-inteligencia-e-investigacion-policial/policia-cibernetica",
+        "phone": "52425100 Ext: 5086",
+        "whatsapp": null,
+        "facebook": null,
+        "twitter": "@SSC_CDMX",
+        "email": "policia.cibernetica@ssc.cdmx.gob.mx"
+      },
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DE LA CIUDAD DE MÉXICO FGJ",
+        "url": "https://www.fgjcdmx.gob.mx/",
+        "phone": "52426418",
+        "whatsapp": null,
+        "facebook": null,
+        "twitter": "@FiscaliaCDMX",
+        "email": "gic@fgjcdmx.gob.mx"
+      }
+    ],
+    "Coahuila": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE COAHUILA FGE",
+        "url": "http://www.fiscaliageneralcoahuila.gob.mx/",
+        "phone": "4380700 Ext: 7579",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/PoliciaCiberneticaCoahuila",
+        "twitter": null,
+        "email": ": policiacibernetica.fge@coahuila.gob.mx"
+      }
+    ],
+    "Colima": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE COLIMA SSP",
+        "url": "http://www.col.gob.mx/",
+        "phone": "312312 Ext: 227",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/policiaciberneticacolima",
+        "twitter": null,
+        "email": "pcibernetica@gobiernocolima.gob.mx"
+      }
+    ],
+    "Durango": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE DURANGO SSP",
+        "url": "http://seguridad.durango.gob.mx/",
+        "phone": "6182265000 Ext: 49001",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/CiberneticaDurango",
+        "twitter": "@Cibernetica_Dgo",
+        "email": "unidad.cibernetica@durango.gob.mx"
+      },
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE DURANGO FGE",
+        "url": "http://fiscalia.durango.gob.mx/",
+        "phone": "1373623 Ext: 73623",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/DgoFiscalia",
+        "twitter": "@DgoFiscalia",
+        "email": "udai@durango.gob.mx"
+      }
+    ],
+    "Estado de México": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE MÉXICO SSP",
+        "url": "https://edomex.gob.mx/",
+        "phone": "722 2758300 Ext: 12202 y 12206",
+        "whatsapp": null,
+        "facebook": null,
+        "twitter": null,
+        "email": "cibernetica.edomex@ssedomex.gob.mx"
+      }
+    ],
+    "Guanajuato": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE GUANAJUATO SSP",
+        "url": "https://seguridad.guanajuato.gob.mx/",
+        "phone": "4737351600",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/PoliciaCiberneticaGto",
+        "twitter": "@SeguridadGto",
+        "email": "seguridad@guanajuato.gob.mx"
+      }
+    ],
+    "Guerrero": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE GUERRERO SSP",
+        "url": "https://www.seguridadgro.gob.mx",
+        "phone": "7474949650 y 4719201 Ext: 10218 y 10219",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/policia.cibernetica.gro/",
+        "twitter": "@cibernetica_gro",
+        "email": "policiacibernetica@guerrero.gob.mx"
+      },
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE GUERRERO FGE",
+        "url": "https://www.fiscaliaguerrero.gob.mx",
+        "phone": "7444861417",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/fiscaliaguerrero/",
+        "twitter": null,
+        "email": "unidadcibernetica@fge.gob.mx"
+      }
+    ],
+    "Hidalgo": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE HIDALGO SSP",
+        "url": "http://policiacibernetica.hidalgo.gob.mx/",
+        "phone": "8007652423",
+        "whatsapp": null,
+        "facebook": null,
+        "twitter": "@SSPHcibernetica",
+        "email": "ssph.cibernetica@hidalgo.gob.mx"
+      },
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE HIDALGO PGJ",
+        "url": "http://procuraduria.hidalgo.gob.mx/",
+        "phone": "7717179000 Ext: 9716",
+        "whatsapp": null,
+        "facebook": "https://web.facebook.com/pgjeh/",
+        "twitter": "@PGJE_Hidalgo",
+        "email": "policiaciberneticapgj@hidalgo.gob.mx"
+      }
+    ],
+    "Jalisco": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE JALISCO FGE",
+        "url": "https://fge.jalisco.gob.mx/policia-cibernetica",
+        "phone": "33 3837 6000 Ext: 18041, 15836 y 15835",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/CiberneticaJal/",
+        "twitter": "@Ciberneticajal",
+        "email": "policia.cibernetica@jalisco.gob.mx y pcibernetica.fiscalia@jalisco.gob.mx"
+      }
+    ],
+    "Michoacán": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE MICHOACÁN SSP",
+        "url": "https://www.ssp.michoacan.gob.mx",
+        "phone": "4433228100 Ext: 10211",
+        "whatsapp": null,
+        "facebook": "http://www.facebook.com/SeguridadPublicaMich/",
+        "twitter": "@MICHOACANSSP",
+        "email": "policia.ciberneticassp@michoacan.gob.mx"
+      },
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE MICHOACÁN FGE",
+        "url": "https://www.fiscaliamichoacan.gob.mx",
+        "phone": "800 890 8106",
+        "whatsapp": null,
+        "facebook": "http://www.facebook.com/PoliciaCiberneticaMich",
+        "twitter": null,
+        "email": "delito.cibernetico@aic.fiscaliamichoacan.gob.mx"
+      }
+    ],
+    "Morelos": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE MORELOS SSP",
+        "url": "http://www.cesmorelos.gob.mx/ces/",
+        "phone": "7776047074",
+        "whatsapp": null,
+        "facebook": null,
+        "twitter": "@Uciber_Morelos",
+        "email": "unidadcibernetica@morelos.gob.mx y denunciacibernetica@morelos.gob.mx"
+      }
+    ],
+    "Nayarit": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE NAYARIT SSP",
+        "url": "https://ssypc.nayarit.gob.mx/",
+        "phone": "311 211 81 71 Ext: 6127",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/SSPCNay/",
+        "twitter": null,
+        "email": "pcibernetica@nayarit.gob.mx"
+      },
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE NAYARIT FGE",
+        "url": "https://fiscaliageneral.nayarit.gob.mx/",
+        "phone": "3111296000 Ext: 17861",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/FiscaliaNayarit/",
+        "twitter": null,
+        "email": "policiacibernetica@fiscaliageneral.nayarit.gob.mx"
+      }
+    ],
+    "Nuevo León": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE NUEVO LEÓN SSP",
+        "url": "https://www.nl.gob.mx/seguridad/",
+        "phone": "8120332870",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/cipolnuevoleon/",
+        "twitter": "@SSPNuevoLeon",
+        "email": "ciberpol.fc.ssp@nuevoleon.gob.mx"
+      },
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE NUEVO LEÓN FGE",
+        "url": "https://fiscalianl.gob.mx/",
+        "phone": "20-20-8650",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/fiscaliageneraldejusticianl/",
+        "twitter": null,
+        "email": "direccion.analisis@fiscalianl.gob.mx"
+      }
+    ],
+    "Oaxaca": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE OAXACA SSP",
+        "url": "https://sspo.gob.mx/",
+        "phone": "(951) 501 50 45 Ext: 32061, 32062 y 32063",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/policiaciberneticaoaxaca",
+        "twitter": "@UPCOaxaca",
+        "email": "policia.cibernetica@sspo.gob.mx"
+      }
+    ],
+    "Puebla": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE PUEBLA SSP",
+        "url": "http://ssp.puebla.gob.mx/",
+        "phone": "(222) 2138111",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/ga.delitosciberneticos/",
+        "twitter": "@CiberPoliciaPue",
+        "email": "ga.delitosciberneticos@puebla.gob.mx"
+      },
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE PUEBLA FGE",
+        "url": "http://fiscalia.puebla.gob.mx/",
+        "phone": "(222) 210 7554 Ext: 1116",
+        "whatsapp": null,
+        "facebook": "https://m.facebook.com/fiscaliapuebla/",
+        "twitter": null,
+        "email": null
+      }
+    ],
+    "Querétaro": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE QUERÉTARO SSP",
+        "url": "http://sscqro.gob.mx/",
+        "phone": "(442) 3091400 Ext: 10424 y (442) 3091401",
+        "whatsapp": null,
+        "facebook": null,
+        "twitter": "@poesqro",
+        "email": "policiacibernetica@queretaro.gob.mx"
+      },
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE QUERÉTARO FGE",
+        "url": "http://fiscaliageneralqro.gob.mx/",
+        "phone": "4423091401",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/fiscaliaqro/",
+        "twitter": null,
+        "email": null
+      }
+    ],
+    "Quintana Roo": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE QUINTANA ROO SSP",
+        "url": null,
+        "phone": "9838350910",
+        "whatsapp": null,
+        "facebook": null,
+        "twitter": "@CiberneticaQroo",
+        "email": "policia.cibernetica@sspqroo.gob.mx"
+      },
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE QUINTANA ROO FGE",
+        "url": "http://www.fgeqroo.gob.mx/portal/",
+        "phone": "998817150",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/FGEQuintanaRoo/",
+        "twitter": "@FGEQuintanaRoo",
+        "email": "division.cibernetica@fgeqroo.gob.mx"
+      }
+    ],
+    "San Luis Potosí": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE SAN LUIS POTOSÍ SSP",
+        "url": "http://sspslp.mx/",
+        "phone": "444 8340106",
+        "whatsapp": null,
+        "facebook": null,
+        "twitter": "@Ciber_ssp_slp",
+        "email": "ciberprevencion@sspslp.gob.mx y policiaciberneticaslp@sspslp.gob.mx"
+      }
+    ],
+    "Sinaloa": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE SINALOA FGE",
+        "url": "http://fiscaliasinaloa.mx/",
+        "phone": "7170719",
+        "whatsapp": null,
+        "facebook": null,
+        "twitter": "@FiscaliaSinaloa",
+        "email": "Inteligenciapie@gmail.com"
+      }
+    ],
+    "Sonora": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE SONORA SSP",
+        "url": "http://www.sspsonora.gob.mx/",
+        "phone": "800 77 24237",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/cibersonora/",
+        "twitter": "@cibersonora",
+        "email": "ciberssp@sonora.gob.mx"
+      }
+    ],
+    "Tabasco": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE TABASCO FGE",
+        "url": "http://www.fiscaliatabasco.gob.mx/RepPoliciaInformatica",
+        "phone": "9933136550 Ext: 4264",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/UnidadInvestigacionDelitosInformaticosFGETabasco/",
+        "twitter": "@UIDIFGETabasco",
+        "email": "denunciadi@fiscalistabasco.gob.mx"
+      }
+    ],
+    "Tamaulipas": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE TAMAULIPAS SSP",
+        "url": "https://www.tamaulipas.gob.mx/seguridadpublica/",
+        "phone": "8343186200 Ext: 16099",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/PoliciaCiberneticaTam/",
+        "twitter": null,
+        "email": "policiacibernetica.ssp@tam.gob.mx"
+      },
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE TAMAULIPAS FJG",
+        "url": "https://www.tamaulipas.gob.mx/fiscalia/",
+        "phone": "(834) 3184700",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/FGJTam/",
+        "twitter": "@FGJ_Tam",
+        "email": "policiacibernetica.fgj@tam.gob.mx"
+      }
+    ],
+    "Tlaxcala": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE TLAXCALA SSP",
+        "url": "https://ssc.tlaxcala.gob.mx/",
+        "phone": "246 465 2050 Ext: 32200",
+        "whatsapp": null,
+        "facebook": null,
+        "twitter": null,
+        "email": "policia.cibernetica@tlaxcala.gob.mx"
+      }
+    ],
+    "Veracruz": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE VERACRUZ SSP",
+        "url": "http://sspc4.sspver.gob.mx/",
+        "phone": "(228) 8418000 Ext: 10035",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/Unidad-de-Policía-Científica-Preventiva-294479797614345/",
+        "twitter": "@UP_Cientifica",
+        "email": "policiacientifica@veracruz.gob.mx"
+      }
+    ],
+    "Yucatán": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE YUCATÁN FGE",
+        "url": "http://fge.yucatan.gob.mx/",
+        "phone": "(999)9303250 Ext: 41248",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/CiberneticaYuc/",
+        "twitter": null,
+        "email": "policia.cibernetica@yucatan.gob.mx"
+      }
+    ],
+    "Zacatecas": [
+      {
+        "unit_name": "UNIDAD DE POLICÍA CIBERNÉTICA DEL ESTADO DE ZACATECAS SSP",
+        "url": "https://ssp.zacatecas.gob.mx/",
+        "phone": "492 124 6037",
+        "whatsapp": null,
+        "facebook": "https://www.facebook.com/Cibernetica.ssp.zacatecas",
+        "twitter": "@SSP_Zac",
+        "email": "cibernetica.ssp@zacatecas.gob.mx"
+      }
+    ]
+  },
+  "state_aliases": {
+    "aguascalientes": "Aguascalientes",
+    "baja california": "Baja California",
+    "baja california sur": "Baja California Sur",
+    "campeche": "Campeche",
+    "chiapas": "Chiapas",
+    "chihuahua": "Chihuahua",
+    "ciudad de mexico": "Ciudad de México",
+    "coahuila": "Coahuila",
+    "colima": "Colima",
+    "durango": "Durango",
+    "estado de mexico": "Estado de México",
+    "guanajuato": "Guanajuato",
+    "guerrero": "Guerrero",
+    "hidalgo": "Hidalgo",
+    "jalisco": "Jalisco",
+    "michoacan": "Michoacán",
+    "morelos": "Morelos",
+    "nayarit": "Nayarit",
+    "nuevo leon": "Nuevo León",
+    "oaxaca": "Oaxaca",
+    "puebla": "Puebla",
+    "queretaro": "Querétaro",
+    "quintana roo": "Quintana Roo",
+    "san luis potosi": "San Luis Potosí",
+    "sinaloa": "Sinaloa",
+    "sonora": "Sonora",
+    "tabasco": "Tabasco",
+    "tamaulipas": "Tamaulipas",
+    "tlaxcala": "Tlaxcala",
+    "veracruz": "Veracruz",
+    "yucatan": "Yucatán",
+    "zacatecas": "Zacatecas",
+    "cdmx": "Ciudad de México",
+    "edomex": "Estado de México"
+  },
+  "state_codes": {
+    "Aguascalientes": "AGS",
+    "Baja California": "BC",
+    "Baja California Sur": "BCS",
+    "Campeche": "CAM",
+    "Chiapas": "CHIS",
+    "Chihuahua": "CHIH",
+    "Ciudad de México": "CDMX",
+    "Coahuila": "COAH",
+    "Colima": "COL",
+    "Durango": "DGO",
+    "Estado de México": "EDMX",
+    "Guanajuato": "GTO",
+    "Guerrero": "GRO",
+    "Hidalgo": "HGO",
+    "Jalisco": "JAL",
+    "Michoacán": "MICH",
+    "Morelos": "MOR",
+    "Nayarit": "NAY",
+    "Nuevo León": "NL",
+    "Oaxaca": "OAX",
+    "Puebla": "PUE",
+    "Querétaro": "QRO",
+    "Quintana Roo": "QROO",
+    "San Luis Potosí": "SLP",
+    "Sinaloa": "SIN",
+    "Sonora": "SON",
+    "Tabasco": "TAB",
+    "Tamaulipas": "TAMPS",
+    "Tlaxcala": "TLAX",
+    "Veracruz": "VER",
+    "Yucatán": "YUC",
+    "Zacatecas": "ZAC"
+  }
+}
