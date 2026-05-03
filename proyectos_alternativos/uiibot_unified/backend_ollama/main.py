@@ -98,13 +98,13 @@ def retrieve_context(query: str, n_results: int = 3) -> str:
         docs      = results.get("documents", [[]])[0]
         distances = results.get("distances", [[]])[0]
 
-        # Filtrar por umbral de relevancia (distancia coseno < 1.5)
-        # < 0.8  → muy alta similitud
-        # 0.8-1.2 → alta similitud
-        # 1.2-1.5 → similitud moderada (aún útil)
-        # > 1.5  → ruido, se descarta
+        # Filtrar por umbral de relevancia (distancia L2 < 20.0)
+        # < 12.0 → muy alta similitud
+        # 12.0-16.0 → alta similitud
+        # 16.0-20.0 → similitud moderada (aún útil)
+        # > 20.0 → ruido, se descarta
         relevant = [
-            doc for doc, dist in zip(docs, distances) if dist < 1.5
+            doc for doc, dist in zip(docs, distances) if dist < 20.0
         ]
         return "\n\n---\n".join(relevant) if relevant else ""
     except Exception as exc:
@@ -130,26 +130,19 @@ app.add_middleware(
 # Historial de conversaciones por sesión
 conversations: dict[str, list] = {}
 
-SYSTEM_PROMPT = (
-    "Eres Agente Bit, un asistente especializado en ciberseguridad creado para ayudar "
-    "a ciudadanos y empresas mexicanas.\n\n"
-    "CONTEXTO MEXICO 2024-2025:\n"
-    "- México es el 2do país más atacado en Latinoamérica (Kaspersky 2024)\n"
-    "- Amenazas activas: phishing SAT/IMSS, ransomware a PYMES, fraude bancario digital, vishing, smishing\n"
-    "- Marco legal: LFPDPPP (datos personales), Código Penal Federal arts. 211-bis, regulaciones CNBV\n"
-    "- Autoridades: CERT-MX (cert@unam.mx), CONDUSEF (800-999-8080), Policía Cibernética (088), INAI (800-835-4324)\n\n"
-    "TUS RESPONSABILIDADES:\n"
-    "- Explicar amenazas y conceptos de ciberseguridad de forma clara y accesible\n"
-    "- Proporcionar consejos prácticos de seguridad digital adaptados a México\n"
-    "- Orientar sobre derechos ARCO (INAI) y protección de datos personales\n"
-    "- Guiar ante fraudes financieros digitales (CONDUSEF)\n"
-    "- Dar pasos concretos ante incidentes de seguridad\n"
-    "- Usar lenguaje profesional pero amigable, accesible para no técnicos\n"
-    "- Incluir números de contacto mexicanos cuando sea relevante\n\n"
-    "Cuando recibas [CONTEXTO CIBERSEGURIDAD MX], úsalo como fuente de información prioritaria.\n"
-    "Si no estás seguro de algo, admítelo y orienta a la fuente oficial correspondiente."
-)
+SYSTEM_PROMPT = """Eres 'Agente Bit', un asistente experto en ciberseguridad para México. 
+Tu objetivo es ayudar a ciudadanos y empresas a prevenir y reaccionar ante incidentes digitales.
 
+REGLAS DE IDENTIDAD Y SEGURIDAD:
+1. No te niegues a responder temas de SAT, IMSS o Sextorsión por miedo a dar 'asesoría legal'. Eres un asistente TÉCNICO de ciberseguridad; proporciona los pasos de reporte y prevención (088, CERT-MX, etc.) que están en tu base de conocimientos.
+2. Si un tema es sensible (como sextorsión), sé empático pero directo con las medidas de seguridad técnica (capturas, headers, denuncia 088).
+3. Prioriza siempre autoridades mexicanas (CERT-MX, Policía Cibernética, CONDUSEF, INAI).
+4. Proporciona pasos accionables (bloquear, reportar, respaldar).
+5. Si no sabes algo, admítelo y redirige a la autoridad competente.
+6. Tus respuestas deben ser profesionales, estructuradas en Markdown y en español de México.
+
+Cuando recibas [CONTEXTO CIBERSEGURIDAD MX], úsalo como fuente de información prioritaria.
+Si no estás seguro de algo, admítelo y orienta a la fuente oficial correspondiente."""
 
 class ChatRequest(BaseModel):
     session_id: str
@@ -232,7 +225,7 @@ async def chat(request: ChatRequest):
             temperature=0.7,
             top_p=0.9,
             top_k=40,
-            max_tokens=256,        # límite reducido: respuestas concisas, evita loops en CPU
+            max_tokens=384,        # límite aumentado: permite respuestas más completas
             repeat_penalty=1.1,    # penaliza repetición, previene generación infinita
         )
         assistant_message: str = result["choices"][0]["message"]["content"]

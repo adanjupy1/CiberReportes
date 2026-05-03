@@ -34,6 +34,28 @@ logger = logging.getLogger(__name__)
 KNOWLEDGE_BASE = [
     # ── CERT-MX / UNAM-CERT ────────────────────────────────────────────────
     {
+        "id": "inai_glosario_arco",
+        "text": "GLOSARIO INAI — DERECHOS ARCO (Definiciones Exactas):\n"
+                   "1. ACCESO: Tienes derecho a conocer qué datos personales tiene una empresa de ti y para qué los usa.\n"
+                   "2. RECTIFICACIÓN: Tienes derecho a corregir tus datos si son inexactos, incompletos o están desactualizados.\n"
+                   "3. CANCELACIÓN: Tienes derecho a que se eliminen tus datos de las bases de la empresa cuando ya no sean necesarios para la finalidad que fueron recabados.\n"
+                   "4. OPOSICIÓN: Tienes derecho a oponerte al uso de tus datos para fines específicos (ej. publicidad) o cuando causen un perjuicio, incluso si el tratamiento es legal.\n"
+                   "IMPORTANTE: No confundir Oposición con secreto. La Oposición es detener un tratamiento específico. Contacto INAI: 800-835-4324.",
+        "metadata": {"source": "INAI Guía Ciudadana", "category": "privacidad", "priority": "alta"}
+    },
+    {
+        "id": "guia_evidencia_sextorsion",
+        "text": "GUÍA TÉCNICA — EVIDENCIA PARA DENUNCIA DE SEXTORSIÓN (Policía Cibernética):\n"
+                   "Si eres víctima de extorsión con imágenes íntimas, la Policía Cibernética requiere evidencia técnica:\n"
+                   "1. CAPTURAS DE PANTALLA: Guarda capturas de las amenazas, el perfil del atacante y el número telefónico.\n"
+                   "2. ENLACES (URLs): Copia la URL completa de los perfiles sospechosos.\n"
+                   "3. HEADERS DE CORREO: Si recibes correos, obtén el 'encabezado completo' (headers) para rastrear la IP de origen.\n"
+                   "4. LOGS DE CHAT: No borres las conversaciones. Exporta el historial de chat si la app lo permite.\n"
+                   "5. NUNCA PAGUES: El pago no garantiza el borrado y fomenta la extorsión permanente.\n"
+                   "DENUNCIA: Llama al 088 (SSPC) o acude al Ministerio Público local para presentar querella.",
+        "metadata": {"source": "SSPC Policía Cibernética", "category": "sextorsion", "priority": "critica"}
+    },
+    {
         "id": "certmx_phishing_sat_2024",
         "text": (
             "ALERTA CERT-MX 2024 — Phishing SAT: Campaña masiva de correos electrónicos "

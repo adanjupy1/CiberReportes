@@ -1,0 +1,668 @@
+[
+  {
+    "id": "P01",
+    "categoria": "PHISHING",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué es el phishing y cómo puedo identificar un correo fraudulento?",
+    "keywords_tecnicas": [
+      "phishing",
+      "correo",
+      "enlace",
+      "remitente",
+      "sospechoso",
+      "falso"
+    ],
+    "keywords_mx": [],
+    "contactos_mx": [],
+    "rag_esperado": false,
+    "reply": "**Phishing: Una amenaza cibernética**\n\nEl phishing es una técnica de fraude que consiste en enviar correos electrónicos falsos que parecen ser de una fuente legítima para obtener información confidencial, como contraseñas, números de seguridad social o datos bancarios. Estos correos electrónicos pueden parecer ser de una entidad gubernamental, financiera o cualquier otra institución respetada.\n\n**¿Cómo puedo identificar un correo fraudulento?**\n\nPara identificar un correo electrónico fraudulento, sigue estos pasos:\n\n1. **Verifica el dominio**: Los correos electrónicos legítimos de entidades gubernamentales y financieras suelen tener dominios que terminan en `.gov`, `.mx` o `.banco`. Si el dominio es extraño o no coincide con la entidad que supuestamente está enviando el correo, es probable que sea un phishing.\n2. **Lee el contenido**: Los correos electrónicos legítimos suelen ser claros y concisos en cuanto a la solicitud de información. Si el correo parece exagerado o urgente, es posible que sea un phishing.\n3. **Busca errores gramaticales**: Los correos electrónicos legítimos suelen estar escritos con una clara y coherente gramática. Si el correo está lleno de errores gramaticales, es probable que sea un phishing.\n4. **No hagas clic en enlaces desconocidos**: Los enlaces a sitios web desconocidos pueden dirigirte a páginas fraudulentas que capturan tus credenciales o instalan malware en tu dispositivo.\n\n**¿Qué hacer si sospecho que estoy siendo víctima de un phishing?**\n\nSi crees que estás siendo víctima de un phishing:\n\n1. **",
+    "rag_used": true,
+    "elapsed": 94.2,
+    "score_total": 83.3,
+    "pct_tecnicas": 67.0,
+    "pct_mx": 100,
+    "pct_contactos": 100,
+    "longitud": 1554,
+    "keywords_encontradas": [
+      "phishing",
+      "correo",
+      "enlace",
+      "falso"
+    ],
+    "mx_encontradas": [],
+    "contactos_encontrados": [],
+    "calidad": "[BUENO]"
+  },
+  {
+    "id": "P02",
+    "categoria": "PHISHING",
+    "dificultad": "Especifico MX",
+    "pregunta": "Recibi un SMS del SAT diciendo que tengo una devolucion de impuestos pendiente con un link. ¿Es real?",
+    "keywords_tecnicas": [
+      "sat",
+      "phishing",
+      "link",
+      "falso"
+    ],
+    "keywords_mx": [
+      "sat.gob.mx",
+      "sat",
+      "autenticidad"
+    ],
+    "contactos_mx": [
+      "cert",
+      "sat"
+    ],
+    "rag_esperado": true,
+    "reply": "**Respuesta del Agente Bit**\n\n**Phishing SAT: ¿Es real el mensaje de devolución de impuestos?**\n\nRecibiste un mensaje SMS supuestamente del Servicio de Administración Tributaria (SAT) informándote que tienes una devolución de impuestos pendiente. Sin embargo, es importante recordar que el SAT nunca solicita información personal a través de mensajes de texto o correos electrónicos.\n\n**¿Qué debes hacer?**\n\n1. **No hagas clic en el enlace**: No ingieras los datos solicitados por el mensaje, ya que es probable que sea un sitio web falso diseñado para robar tus credenciales.\n2. **Verifica la autenticidad del mensaje**: Asegúrate de que el mensaje sea legítimo y no contenga errores tipográficos comunes en los mensajes de phishing (por ejemplo, mal escritos o con errores ortográficos).\n3. **No ingieras datos bancarios**: No ingreses tu número de cuenta bancaria o cualquier otro dato personal a través del mensaje.\n4. **Reporta el incidente**: Si crees que el mensaje es un phishing, reporta el incidente al SAT y luego contacta a la policía cibernética para obtener asistencia adicional.\n\n**Paso accionable:**\n\n1. **Bloquear el número de teléfono**: Bloquea el número de teléfono que envió el mensaje para evitar futuras llamadas suplantando tu identidad.\n2. **Reporte al SAT**: Ingresá directamente a sat.gob.mx y reporta el incidente, proporcionando todos los detalles posibles.\n3. **Contacta a la policía cibernética**: Llama a 088 o a CONDUSEF (800-999-8080) para obtener asistencia",
+    "rag_used": true,
+    "elapsed": 99.1,
+    "score_total": 83.8,
+    "pct_tecnicas": 75.0,
+    "pct_mx": 100.0,
+    "pct_contactos": 50.0,
+    "longitud": 1492,
+    "keywords_encontradas": [
+      "sat",
+      "phishing",
+      "falso"
+    ],
+    "mx_encontradas": [
+      "sat.gob.mx",
+      "sat",
+      "autenticidad"
+    ],
+    "contactos_encontrados": [
+      "sat"
+    ],
+    "calidad": "[BUENO]"
+  },
+  {
+    "id": "P03",
+    "categoria": "PHISHING",
+    "dificultad": "Especifico MX",
+    "pregunta": "Me llego un correo del IMSS pidiendo verificar mis semanas cotizadas con un formulario. ¿Qué hago?",
+    "keywords_tecnicas": [
+      "imss",
+      "phishing",
+      "verificar"
+    ],
+    "keywords_mx": [
+      "imss.gob.mx",
+      "imss",
+      "nss"
+    ],
+    "contactos_mx": [
+      "800-623-2323",
+      "imss"
+    ],
+    "rag_esperado": true,
+    "reply": "**Respuesta del Agente Bit**\n\n### Phishing IMSS: ¿Qué hacer?\n\nSi ha recibido un correo electrónico o mensaje SMS que solicita verificar sus semanas cotizadas con un formulario, es probable que sea un caso de phishing.\n\n#### Pasos de acción:\n\n1. **No responde**: No proporciones información personal como NSS (Número de Seguro Social), CURP (Clave Única de Registro Población) o datos personales a través de este mensaje.\n2. **Verifica la autenticidad**: El IMSS nunca solicita datos por mensaje. Verifique si el correo electrónico o mensaje SMS proviene de la dirección oficial del IMSS (`imss.gob.mx`).\n3. **No haga clic en enlaces**: No haga clic en enlaces ni archivos adjuntos que puedan contener malware.\n4. **Llame al número de reporte**: Llame al número de reporte del IMSS, 800-623-2323, y reporte el incidente.\n\n#### Información adicional:\n\n* El IMSS nunca solicita datos por mensaje o correo electrónico.\n* Solo accede a la información personal a través de la página oficial (`imss.gob.mx`).\n\n### Recomendaciones para evitar futuros ataques:\n\n* Mantén tus dispositivos y software actualizados con las últimas versiones de seguridad.\n* Utiliza software antivírus y firewall.\n* No proporciones información personal a menos que estés seguro de la legitimidad del solicitante.\n\n**Si no tienes más preguntas, puedes reportar el incidente al IMSS por teléfono.**\n\n¡Espero que esta información te sea útil! Si tienes alguna otra pregunta o necesitas ayuda adicional, no dudes en preguntar.",
+    "rag_used": true,
+    "elapsed": 108.0,
+    "score_total": 100.0,
+    "pct_tecnicas": 100.0,
+    "pct_mx": 100.0,
+    "pct_contactos": 100.0,
+    "longitud": 1492,
+    "keywords_encontradas": [
+      "imss",
+      "phishing",
+      "verificar"
+    ],
+    "mx_encontradas": [
+      "imss.gob.mx",
+      "imss",
+      "nss"
+    ],
+    "contactos_encontrados": [
+      "800-623-2323",
+      "imss"
+    ],
+    "calidad": "[EXCELENTE]"
+  },
+  {
+    "id": "P04",
+    "categoria": "FRAUDE BANCARIO",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué es el vishing y cómo funciona el fraude por llamada telefónica?",
+    "keywords_tecnicas": [
+      "vishing",
+      "llamada",
+      "banco",
+      "nip",
+      "token"
+    ],
+    "keywords_mx": [],
+    "contactos_mx": [],
+    "rag_esperado": false,
+    "reply": "**Explicación del Vishing y el Fraude por Llamada Telefónica**\n\nEl vishing (del inglés \"vishing\", que significa \"pescar\" o \"seducir\") es un tipo de fraude cibernético que se refiere a llamadas telefónicas fraudulentas en las que el atacante se hace pasar por una persona legítima, como un empleado bancario o un funcionario gubernamental. El objetivo del vishing es obtener información confidencial, como números de identificación personal (NIP), tokens, contraseñas o acceso a banca en línea.\n\n**Cómo funciona el fraude por llamada telefónica:**\n\n1. **Llamada**: Un atacante hace una llamada telefónica al destinatario y se identifica como un empleado bancario, un funcionario gubernamental o un representante de otra institución.\n2. **Argumentación**: El atacante argumenta que hay un problema con la cuenta del destinatario y solicita información para resolverlo, como el NIP, el número de tarjeta de crédito o una contraseña.\n3. **Presión**: El atacante puede usar técnicas de presión para obtener la información solicitada, como amenazas de cerrar la cuenta o de incurrir en sanciones financieras.\n4. **Obtención de datos**: Una vez que el atacante obtiene la información confidencial, utiliza esa información para realizar transacciones fraudulentas o vender los datos en el mercado negro.\n\n**Precauciones y medidas de protección:**\n\n* No proporcionar información personal a través de llamadas telefónicas.\n* Verificar la identidad del llamante y solicitar la verificación de la institución a la que se está relacionando.\n* No dar respuesta a",
+    "rag_used": true,
+    "elapsed": 90.6,
+    "score_total": 88.0,
+    "pct_tecnicas": 80.0,
+    "pct_mx": 100,
+    "pct_contactos": 100,
+    "longitud": 1548,
+    "keywords_encontradas": [
+      "vishing",
+      "llamada",
+      "nip",
+      "token"
+    ],
+    "mx_encontradas": [],
+    "contactos_encontrados": [],
+    "calidad": "[EXCELENTE]"
+  },
+  {
+    "id": "P05",
+    "categoria": "FRAUDE BANCARIO",
+    "dificultad": "Urgente MX",
+    "pregunta": "Me robaron dinero de mi cuenta BBVA por internet, hicieron transferencias que yo no autorice. ¿Qué hago ahorita?",
+    "keywords_tecnicas": [
+      "bloquear",
+      "transferencia",
+      "denuncia"
+    ],
+    "keywords_mx": [
+      "condusef",
+      "banco"
+    ],
+    "contactos_mx": [
+      "condusef",
+      "800"
+    ],
+    "rag_esperado": true,
+    "reply": "**Respuesta de Agente Bit**\n\nLo siento mucho por lo que te ha pasado, @nombre del usuario. Me alegra que hayas llegado a mí para recibir ayuda.\n\n**Paso 1: Informar a BBVA**\nPrimero, es importante que informes el incidente a tu banco, BBVA. Puedes llamar al número de atención al cliente de BBVA o acercarte a una sucursal para reportar el problema. Es posible que necesiten verificar tus credenciales y realizar acciones para detener las transferencias fraudulentas.\n\n**Paso 2: Reporte a CONDUSEF**\nAdemás, es recomendable informar a CONDUSEF (Consejo Nacional de Seguridad y Protección en la Tecnología), la autoridad competente en materia de protección de datos personales y ciberseguridad. Puedes llamar al número 800-999-8080 para reportar el incidente.\n\n**Paso 3: Verificación de credenciales**\nAsegúrate de verificar tus credenciales con BBVA para asegurarte de que no se hayan robado tus datos personales o financieros. También es importante revisar tus movimientos bancarios para detectar cualquier actividad sospechosa.\n\n**Paso 4: Protección de tus cuentas**\nPara evitar futuras violaciones, te recomiendo tomar las siguientes medidas:\n* Bloquea el número de teléfono utilizado para realizar las transferencias fraudulentas.\n* Cambia tus contraseñas y tokens de acceso para todas tus cuentas bancarias y de seguridad en línea.\n* Verifica que todos los dispositivos y navegadores estén actualizados con la última versión de seguridad.\n\n**Paso 5: Recurso a BURO DE ENTIDADES FINANCIERAS**\nSi el",
+    "rag_used": true,
+    "elapsed": 89.4,
+    "score_total": 71.7,
+    "pct_tecnicas": 33.0,
+    "pct_mx": 100.0,
+    "pct_contactos": 100.0,
+    "longitud": 1501,
+    "keywords_encontradas": [
+      "transferencia"
+    ],
+    "mx_encontradas": [
+      "condusef",
+      "banco"
+    ],
+    "contactos_encontrados": [
+      "condusef",
+      "800"
+    ],
+    "calidad": "[BUENO]"
+  },
+  {
+    "id": "P06",
+    "categoria": "FRAUDE BANCARIO",
+    "dificultad": "Especifico MX",
+    "pregunta": "¿Cuánto tiempo tiene mi banco para responder mi reclamación por fraude?",
+    "keywords_tecnicas": [
+      "plazo",
+      "dias",
+      "respuesta"
+    ],
+    "keywords_mx": [
+      "condusef",
+      "dias habiles",
+      "sipres"
+    ],
+    "contactos_mx": [
+      "condusef"
+    ],
+    "rag_esperado": true,
+    "reply": "**Respuesta del Agente Bit**\n\nSegún las Reglas de Identidad y Seguridad, siempre priorizamos autoridades mexicanas y proporcionamos pasos accionables.\n\nEn este caso, según la información proporcionada por CONDUSEF, tu banco tiene un plazo de 45 días hábiles para responder a tu reclamación por fraude digital. Si no recibes una respuesta dentro de ese tiempo, puedes recurrir a CONDUSEF gratuitamente y solicitar asistencia adicional.\n\n**Pasos accionables:**\n\n1. Contacta a tu banco y solicita una investigación sobre el fraude.\n2. Si no recibes una respuesta en 45 días hábiles, recurre a CONDUSEF y solicita asistencia adicional (800-999-8080).\n3. Utiliza el sistema de quejas SIPRES para presentar formalmente tu reclamación.\n\n**Recuerda:** Los bancos NUNCA solicitan NIP, contraseñas ni tokens por teléfono. Cuelgue y llame al número oficial de tu banco para obtener más información.\n\nEspero que esta información te sea útil. Si tienes alguna otra pregunta o necesitas asistencia adicional, no dudes en preguntar.",
+    "rag_used": true,
+    "elapsed": 97.4,
+    "score_total": 100.0,
+    "pct_tecnicas": 100.0,
+    "pct_mx": 100.0,
+    "pct_contactos": 100.0,
+    "longitud": 1017,
+    "keywords_encontradas": [
+      "plazo",
+      "dias",
+      "respuesta"
+    ],
+    "mx_encontradas": [
+      "condusef",
+      "dias habiles",
+      "sipres"
+    ],
+    "contactos_encontrados": [
+      "condusef"
+    ],
+    "calidad": "[EXCELENTE]"
+  },
+  {
+    "id": "P07",
+    "categoria": "RANSOMWARE",
+    "dificultad": "Basico",
+    "pregunta": "¿Qué es el ransomware y por qué es peligroso para las empresas?",
+    "keywords_tecnicas": [
+      "ransomware",
+      "cifra",
+      "rescate",
+      "datos",
+      "empresa"
+    ],
+    "keywords_mx": [],
+    "contactos_mx": [],
+    "rag_esperado": false,
+    "reply": "**Respuesta**\n\n# ¿Qué es el ransomware y por qué es peligroso para las empresas?\n\nEl ransomware es un tipo de malware que se instala en los sistemas informáticos de una empresa, lo que permite al atacante exigir un rescate (dinero) a cambio de no realizar backups de la información confidencial. El objetivo principal del ransomware es obtener dinero de manera ilegal.\n\n**Por qué es peligroso para las empresas:**\n\n1. **Pérdida de datos**: Los ransomwares pueden eliminar o corromper los archivos importantes, lo que lleva a la pérdida de información valiosa.\n2. **Interrupción de operaciones**: El ataque puede causar una interrupción en las operaciones de la empresa, lo que puede afectar la productividad y la reputación.\n3. **Costos de recuperación**: La recuperación de los datos y el sistema puede ser costosa y tiempo-consuming.\n4. **Exigencia de rescate**: El atacante puede exigir un pago para restaurar los archivos, lo que puede poner en riesgo la seguridad financiera de la empresa.\n\n**Mejores prácticas preventivas**\n\nPara evitar ataques de ransomware, es importante:\n\n* Realizar respaldos diarios de los datos importantes\n* Aplicar parches de seguridad y mantener el software actualizado\n* Capacitar a los empleados sobre reconocimiento de phishing y medidas de seguridad\n* Implementar la autenticación de dos factores (MFA) en accesos remotos\n\n**Qué hacer ante un incidente**\n\nSi se detecta un ataque de ransomware, es importante:\n\n* Desconectar rápidamente los equipos afectados de la red\n* No pagar el rescate, ya que esto puede darles motiv",
+    "rag_used": true,
+    "elapsed": 82.2,
+    "score_total": 88.0,
+    "pct_tecnicas": 80.0,
+    "pct_mx": 100,
+    "pct_contactos": 100,
+    "longitud": 1558,
+    "keywords_encontradas": [
+      "ransomware",
+      "rescate",
+      "datos",
+      "empresa"
+    ],
+    "mx_encontradas": [],
+    "contactos_encontrados": [],
+    "calidad": "[EXCELENTE]"
+  },
+  {
+    "id": "P08",
+    "categoria": "RANSOMWARE",
+    "dificultad": "Critico MX",
+    "pregunta": "La computadora de mi empresa fue infectada con ransomware, los archivos estan cifrados y piden rescate en Bitcoin. Pasos a seguir.",
+    "keywords_tecnicas": [
+      "desconectar",
+      "apagar",
+      "respaldo",
+      "pagar",
+      "rescate"
+    ],
+    "keywords_mx": [
+      "cert",
+      "policia"
+    ],
+    "contactos_mx": [
+      "cert",
+      "088"
+    ],
+    "rag_esperado": true,
+    "reply": "**Respuesta del Agente Bit**\n\n**Prioridad:** Alta\n\n**Medidas de Seguridad Técnica:**\n\n1. **Desconexión inmediata**: desconecta todos los equipos afectados de la red para evitar la propagación del ransomware.\n2. **Bloqueo de acceso**: bloqued el acceso a la computadora infectada y a cualquier dispositivo conectado a la misma, hasta que se pueda realizar una limpieza de seguridad más profunda.\n3. **Respaldo de datos**: realiza un respaldo offline diario de los archivos importantes para evitar la pérdida de información en caso de que el ransomware no sea eliminado.\n4. **Parches de Windows**: aplica parches de seguridad actualizados para Windows y otros sistemas operativos para proteger contra futuras infecciones.\n\n**Denuncia:**\n\n1. **Cert-MX**: reporta el incidente a CERT-MX (cert@unam.mx) y proporciona todos los detalles necesarios, incluyendo la versión del ransomware y cualquier información adicional relevante.\n2. **No pagar rescate**: no pague el rescate en Bitcoin, ya que esto puede incentivar a los atacantes a realizar ataques similares en el futuro.\n\n**Evidencia técnica:**\n\n1. **Capturas de pantalla**: guarda capturas de la pantalla del ransomware y cualquier información adicional relevante.\n2. **Logs de sistema**: obtiene los logs de sistema para rastrear la propagación del ransomware.\n3. **Respaldos de datos**: proporciona los respaldos offline diarios de los archivos importantes.\n\n**Protección de la red:**\n\n1. **Revisa la seguridad de la red**: revisa la seguridad de la red para asegurarte de que no haya otros puntos de entrada",
+    "rag_used": true,
+    "elapsed": 127.7,
+    "score_total": 56.0,
+    "pct_tecnicas": 60.0,
+    "pct_mx": 50.0,
+    "pct_contactos": 50.0,
+    "longitud": 1560,
+    "keywords_encontradas": [
+      "respaldo",
+      "pagar",
+      "rescate"
+    ],
+    "mx_encontradas": [
+      "cert"
+    ],
+    "contactos_encontrados": [
+      "cert"
+    ],
+    "calidad": "[ACEPTABLE]"
+  },
+  {
+    "id": "P09",
+    "categoria": "RANSOMWARE",
+    "dificultad": "Prevencion",
+    "pregunta": "¿Qué medidas debe tomar una PYME mexicana para protegerse del ransomware?",
+    "keywords_tecnicas": [
+      "backup",
+      "actualizacion",
+      "antivirus",
+      "mfa"
+    ],
+    "keywords_mx": [
+      "pyme"
+    ],
+    "contactos_mx": [],
+    "rag_esperado": true,
+    "reply": "**Medidas de Prevención y Mitigación del Ransomware para PYMES mexicanas**\n===========\n\nSegún la Alerta CERT-MX 2024, el ransomware es un tipo de ataque cibernético que puede tener graves consecuencias para las pequeñas y medianas empresas (PYMEs) mexicanas. A continuación, se presentan algunas medidas de prevención y mitigación que pueden ayudar a protegerse del ransomware:\n\n**Medidas Preventivas**\n\n1.  **Realizar respaldos offline diarios**: Es fundamental tener respaldos regulares de los datos importantes para asegurarse de que no se pierdan en caso de un ataque.\n2.  **Aplicar parches de Windows**: Mantener el sistema operativo actualizado con parches de seguridad puede ayudar a evitar vulnerabilidades que pueden ser explotadas por el ransomware.\n3.  **Capacitar empleados en reconocimiento de phishing**: Los empleados deben estar alerta para detectar intentos de phishing y no proporcionar información confidencial.\n4.  **Implementar MFA en accesos remotos**: La autenticación de dos factores (MFA) puede ayudar a evitar que los atacantes accedan al sistema desde dispositivos no autorizados.\n\n**Medidas de Mitigación**\n\n1.  **Desconectar equipos afectados de la red**: En caso de detectar un ataque, es importante desconectar los equipos afectados de la red para evitar la propagación del malware.\n2.  **No pagar rescate**: No pagar el rescate puede ayudar a evitar que los atacantes obtengan dinero y continuar con sus actividades maliciosas.\n\n**Pasos Accionables**\n\n1.  **Reportar al CERT-MX**: Si se detect",
+    "rag_used": true,
+    "elapsed": 105.5,
+    "score_total": 68.8,
+    "pct_tecnicas": 25.0,
+    "pct_mx": 100.0,
+    "pct_contactos": 100,
+    "longitud": 1525,
+    "keywords_encontradas": [
+      "mfa"
+    ],
+    "mx_encontradas": [
+      "pyme"
+    ],
+    "contactos_encontrados": [],
+    "calidad": "[ACEPTABLE]"
+  },
+  {
+    "id": "P10",
+    "categoria": "PRIVACIDAD",
+    "dificultad": "Legal MX",
+    "pregunta": "¿Qué son los derechos ARCO y cómo los ejerzo si una empresa tiene mis datos sin mi consentimiento?",
+    "keywords_tecnicas": [
+      "acceso",
+      "rectificacion",
+      "cancelacion",
+      "oposicion",
+      "datos personales"
+    ],
+    "keywords_mx": [
+      "inai",
+      "lfpdppp"
+    ],
+    "contactos_mx": [
+      "inai",
+      "800-835-4324"
+    ],
+    "rag_esperado": true,
+    "reply": "**Resumen de la Pregunta y Respuesta**\n\nLa Ley Federal de Protección de Datos Personales en Posesión de Particulares (LFPDPPP) otorga a los ciudadanos cuatro derechos fundamentales sobre sus datos personales, conocidos como los Derechos ARCO. Estos derechos son:\n\n*   **Acceso**: Conocer qué datos tiene una empresa y para qué los utiliza.\n*   **Rectificación**: Corregir datos incorrectos, incompletos o desactualizados.\n*   **Cancelación**: Solicitar la eliminación de tus datos cuando ya no sean necesarios para la finalidad original.\n*   **Oposición**: Oponerse al uso de tus datos para fines específicos o cuando causen un perjuicio, incluso si el tratamiento es legal.\n\n**Cómo Ejercer los Derechos ARCO**\n\nSi una empresa tiene tus datos sin tu consentimiento, puedes ejercer tus derechos ARCO de las siguientes maneras:\n\n1.  **Acceso**: Puedes solicitar un informe detallado sobre los datos que la empresa tiene a tu nombre y para qué los utiliza.\n2.  **Rectificación**: Si tienes información incorrecta o incompleta, puedes solicitar su rectificación o actualización. Debes proporcionar evidencia de la inexactitud o incompletitud de los datos.\n3.  **Cancelación**: Puedes solicitar la eliminación de tus datos si ya no son necesarios para la finalidad original y no se requieren para el cumplimiento legal o contractual.\n4.  **Oposición**: Si crees que la empresa está utilizando tus datos sin tu consentimiento, puedes oponerte al uso de tus datos para fines específicos, como publicidad o marketing.\n\n**Pasos Accionables**\n\nPara ejercer tus derechos ARCO",
+    "rag_used": true,
+    "elapsed": 115.0,
+    "score_total": 67.5,
+    "pct_tecnicas": 100.0,
+    "pct_mx": 50.0,
+    "pct_contactos": 0.0,
+    "longitud": 1564,
+    "keywords_encontradas": [
+      "acceso",
+      "rectificacion",
+      "cancelacion",
+      "oposicion",
+      "datos personales"
+    ],
+    "mx_encontradas": [
+      "lfpdppp"
+    ],
+    "contactos_encontrados": [],
+    "calidad": "[ACEPTABLE]"
+  },
+  {
+    "id": "P11",
+    "categoria": "PRIVACIDAD",
+    "dificultad": "Legal MX",
+    "pregunta": "Una empresa filtró mis datos personales. ¿Tienen obligación de avisarme y qué puedo hacer?",
+    "keywords_tecnicas": [
+      "brecha",
+      "notificacion",
+      "filtracion",
+      "denuncia"
+    ],
+    "keywords_mx": [
+      "inai",
+      "lfpdppp"
+    ],
+    "contactos_mx": [
+      "inai"
+    ],
+    "rag_esperado": true,
+    "reply": "**Respuesta del Agente Bit**\n\n**Información de Identidad y Seguridad**\nAntes de proceder, es importante destacar que la empresa filtró tus datos personales sin tu consentimiento. Esto puede ser considerado un incidente de ciberseguridad.\n\n**Obligaciones de la Empresa Filtradora**\nEn México, las empresas que recopilan datos personales tienen la obligación de cumplir con el Aviso de Privacidad (Aviso Obligatorio) y notificar a los afectados en caso de incidentes de seguridad. Según lo establecido por la INAI, la empresa filtradora debe informarte sobre el incidente y proporcionar medidas para proteger tus datos.\n\n**Paso 1: Verificar Cumplimiento**\nLa primera acción es verificar si la empresa filtradora ha cumplido con las obligaciones legales. Puedes hacerlo comunicándote con ellos para obtener información sobre el incidente y cómo se intentó proteger tus datos.\n\n**Paso 2: Reportar al INAI**\nSi no obtienes una respuesta satisfactoria o si sientes que la empresa filtradora no ha cumplido con sus obligaciones, puedes reportar el incidente a la INAI. Puedes hacerlo mediante su sitio web (inai.org.mx) o llamando al número de atención al cliente.\n\n**Paso 3: Reportar al CONDUSEF**\nAdemás, puedes reportar el incidente al CONDUSEF (Coordenador Nacional de Seguridad y Protección de Datos Personales), quien es la autoridad competente en materia de protección de datos personales. Puedes hacerlo llamando al número 800-999-8080.\n\n**Paso 4: Bloquear Cuentas**\nAntes de tomar medidas adicionales, es importante bloquear",
+    "rag_used": true,
+    "elapsed": 102.9,
+    "score_total": 47.5,
+    "pct_tecnicas": 0.0,
+    "pct_mx": 50.0,
+    "pct_contactos": 100.0,
+    "longitud": 1526,
+    "keywords_encontradas": [],
+    "mx_encontradas": [
+      "inai"
+    ],
+    "contactos_encontrados": [
+      "inai"
+    ],
+    "calidad": "[DEFICIENTE]"
+  },
+  {
+    "id": "P12",
+    "categoria": "SMISHING",
+    "dificultad": "Especifico MX",
+    "pregunta": "Recibi un SMS de mi banco diciendo que mi tarjeta fue bloqueada y que ingrese mis datos en una liga. ¿Qué hago?",
+    "keywords_tecnicas": [
+      "smishing",
+      "sms",
+      "liga",
+      "fraude",
+      "falso"
+    ],
+    "keywords_mx": [
+      "condusef",
+      "banco"
+    ],
+    "contactos_mx": [
+      "condusef",
+      "800"
+    ],
+    "rag_esperado": true,
+    "reply": "**Respuesta del Agente Bit**\n\nNo te preocupes, hemos visto este tipo de situaciones antes. Es importante actuar rápido para proteger tus datos personales y financieros.\n\n**Pasos a seguir:**\n\n1. **No ingrese datos**: No respondas al mensaje ni ingrese tus datos personales en la liga proporcionada.\n2. **Borra el mensaje**: Borra el mensaje de texto del teléfono para evitar que se vea como leído y no lo repita el atacante.\n3. **Verifica movimientos**: Llama a tu banco y pide verificar tus movimientos para confirmar si tu tarjeta realmente está bloqueada.\n4. **Contacta a CONDUSEF**: Llama al número de emergencia de CONDUSEF (800-999-8080) y reporta el incidente de fraude por SMS.\n\n**Recuerda:** Los bancos nunca solicitan datos personales o financieros por teléfono, SMS o correo electrónico. Si tienes alguna duda, es mejor actuar con precaución y verificar la autenticidad del mensaje antes de proporcionar cualquier información.\n\n**Consejo adicional:**\n\n* Mantén tus dispositivos y aplicaciones actualizados con las últimas versiones de seguridad.\n* Asegúrate de que tus datos personales y financieros estén protegidos con contraseñas fuertes y autenticación de dos factores cuando sea posible.\n\nEspero que esto te ayude a manejar la situación. Si tienes alguna otra pregunta o inquietud, no dudes en preguntar.",
+    "rag_used": true,
+    "elapsed": 112.5,
+    "score_total": 86.0,
+    "pct_tecnicas": 60.0,
+    "pct_mx": 100.0,
+    "pct_contactos": 100.0,
+    "longitud": 1319,
+    "keywords_encontradas": [
+      "sms",
+      "liga",
+      "fraude"
+    ],
+    "mx_encontradas": [
+      "condusef",
+      "banco"
+    ],
+    "contactos_encontrados": [
+      "condusef",
+      "800"
+    ],
+    "calidad": "[EXCELENTE]"
+  },
+  {
+    "id": "P13",
+    "categoria": "SEXTORSION",
+    "dificultad": "Urgente MX",
+    "pregunta": "Alguien en redes sociales tiene fotos intimas mias y me pide dinero para no publicarlas. ¿Qué hago?",
+    "keywords_tecnicas": [
+      "extorsion",
+      "no pagar",
+      "evidencia",
+      "bloquear",
+      "denuncia",
+      "headers",
+      "captura",
+      "url",
+      "logs"
+    ],
+    "keywords_mx": [
+      "policia cibernetica",
+      "088"
+    ],
+    "contactos_mx": [
+      "088",
+      "policia"
+    ],
+    "rag_esperado": true,
+    "reply": "**Denuncia de Sextorsión**\n\nSi eres víctima de extorsión con imágenes íntimas, es importante actuar rápidamente para proteger tus datos y evitar que la situación empeore.\n\n**Paso 1: Guarda evidencia técnica**\n\n*   Capturas de pantalla: Guarda capturas de las amenazas, el perfil del atacante y el número telefónico.\n*   Enlaces (URLs): Copia la URL completa de los perfiles sospechosos.\n*   Headers de correo electrónico: Si recibes correos, obtén el 'encabezado completo' (headers) para rastrear la IP de origen.\n*   Logs de chat: No borres las conversaciones. Exporta el historial de chat si la app lo permite.\n\n**Paso 2: Bloquea y reporta**\n\n*   Bloquea al número telefónico y a la cuenta sospechosa en las plataformas de redes sociales.\n*   Reporta al incidente a la Policía Cibernética (088) o al Ministerio Público local para presentar querella.\n\n**Paso 3: Protege tus datos**\n\n*   No pagues ni comprometas tus datos personales con nadie.\n*   Verifica los movimientos en tu cuenta bancaria y en las plataformas de redes sociales para detectar cualquier actividad sospechosa.\n\nRecuerda que la denuncia es clave para proteger tus derechos y evitar que la situación se repita.\n\n**Fuentes adicionales**\n\n*   CONDUSEF: Si eres víctima de Smishing (fraude por SMS), reporta al CONDUSEF 800-999-8080.\n*   IMSS: Si recibiste un mensaje de phishing IMSS, reporta al IMSS",
+    "rag_used": true,
+    "elapsed": 127.2,
+    "score_total": 92.2,
+    "pct_tecnicas": 78.0,
+    "pct_mx": 100.0,
+    "pct_contactos": 100.0,
+    "longitud": 1367,
+    "keywords_encontradas": [
+      "extorsion",
+      "evidencia",
+      "denuncia",
+      "headers",
+      "captura",
+      "url",
+      "logs"
+    ],
+    "mx_encontradas": [
+      "policia cibernetica",
+      "088"
+    ],
+    "contactos_encontrados": [
+      "088",
+      "policia"
+    ],
+    "calidad": "[EXCELENTE]"
+  },
+  {
+    "id": "P14",
+    "categoria": "BUENAS PRACTICAS",
+    "dificultad": "Basico",
+    "pregunta": "¿Cómo crear una contraseña segura y qué es la autenticación de dos factores?",
+    "keywords_tecnicas": [
+      "contrasena",
+      "caracteres",
+      "mayusculas",
+      "2fa",
+      "mfa"
+    ],
+    "keywords_mx": [],
+    "contactos_mx": [],
+    "rag_esperado": false,
+    "reply": "**Crear una contraseña segura y la autenticación de dos factores**\n\n**Crear una contraseña segura**\n\nUna contraseña segura es fundamental para proteger tus cuentas en línea. A continuación, te presentamos algunos consejos para crear una contraseña segura:\n\n1. **Mínimo 12 caracteres**: La longitud de tu contraseña debe ser al menos 12 caracteres.\n2. **Combina tipos de carácter**: Incorpora una combinación de:\n * Mayúsculas (A-Z)\n * Minúsculas (a-z)\n * Números (0-9)\n * Símbolos (!, @, #, etc.)\n3. **No reutilice contraseñas**: No uses la misma contraseña para varias cuentas.\n4. **Evita patrones comunes**: No utilices patrones como \"123456\" o \"abcd1234\".\n\n**Ejemplo de contraseña segura**\n\nUna ejemplo de contraseña segura podría ser: `F4#kLpM*8dJ`\n\n**La autenticación de dos factores (2FA/MFA)**\n\nLa autenticación de dos factores es un proceso que requiere la combinación de una contraseña con otro tipo de verificación, como:\n\n* Un código enviado a tu teléfono o correo electrónico\n* Una biometría (imprenta digital, reconocimiento facial, etc.)\n* Una clave de seguridad\n\nLa autenticación de dos factores agrega un nivel adicional de seguridad a tus cuentas en línea, reduciendo el riesgo de que tus contraseñas sean comprometidas.\n\n**Ejemplo de autenticación de dos factores**\n\nUna ejemplo de autenticación de dos factores podría ser:\n\n* Entrar en tu cuenta con una contraseña segura (`F4#kLpM*8d",
+    "rag_used": true,
+    "elapsed": 107.8,
+    "score_total": 100.0,
+    "pct_tecnicas": 100.0,
+    "pct_mx": 100,
+    "pct_contactos": 100,
+    "longitud": 1403,
+    "keywords_encontradas": [
+      "contrasena",
+      "caracteres",
+      "mayusculas",
+      "2fa",
+      "mfa"
+    ],
+    "mx_encontradas": [],
+    "contactos_encontrados": [],
+    "calidad": "[EXCELENTE]"
+  },
+  {
+    "id": "P15",
+    "categoria": "BUENAS PRACTICAS",
+    "dificultad": "Intermedio",
+    "pregunta": "¿Es seguro conectarme a la red WiFi pública de un café para revisar mi cuenta bancaria?",
+    "keywords_tecnicas": [
+      "wifi",
+      "publica",
+      "inseguro",
+      "vpn",
+      "mitm"
+    ],
+    "keywords_mx": [],
+    "contactos_mx": [],
+    "rag_esperado": true,
+    "reply": "**Respuesta del Agente Bit**\n\nNo, no es seguro conectarte a la red Wi-Fi pública de un café para revisar tu cuenta bancaria. Las redes Wi-Fi públicas son inseguras y pueden estar expuestas a ataques como:\n\n*   **Man-in-the-Middle (MitM)**: Atacantes pueden interceptar el tráfico de datos y modificarlo para obtener información confidencial.\n*   **Redes falsas ('evil twin')**: Atacantes pueden crear una red Wi-Fi falsa que se parezca a la red real, lo que podría hacer que se conecte a la red incorrecta.\n*   **Captura de tráfico no cifrado**: Atacantes pueden capturar el tráfico de datos no cifrado y leer información confidencial.\n\nPara revisar tu cuenta bancaria, es mejor utilizar una conexión Wi-Fi segura, como la tuya propia o una conexión VPN. Si necesitas conectarte a un Wi-Fi público, asegúrate de verificar la autenticidad de la red y desactivar 'conectar automáticamente' en tu celular.\n\n**Pasos para revisar tu cuenta bancaria de manera segura:**\n\n1.  Conecta a tu propia red Wi-Fi o utiliza una conexión VPN.\n2.  Verifica el nombre exacto de la red con el establecimiento antes de conectarte.\n3.  Prefiere utilizar datos móviles para operaciones sensibles.\n\n**Información adicional:**\n\n*   Los bancos nunca solicitan NIP, contraseñas ni tokens por teléfono. Si recibes una llamada sospechosa, cuelgue y llame al número oficial de tu banco.\n*   Reporta cualquier incidente de seguridad a CONDUSEF: 800-999-8080.\n\nRecuerda que la seguridad en línea es importante",
+    "rag_used": true,
+    "elapsed": 122.3,
+    "score_total": 86.0,
+    "pct_tecnicas": 60.0,
+    "pct_mx": 100,
+    "pct_contactos": 100,
+    "longitud": 1478,
+    "keywords_encontradas": [
+      "publica",
+      "vpn",
+      "mitm"
+    ],
+    "mx_encontradas": [],
+    "contactos_encontrados": [],
+    "calidad": "[EXCELENTE]"
+  },
+  {
+    "id": "P16",
+    "categoria": "MARCO LEGAL",
+    "dificultad": "Legal MX",
+    "pregunta": "¿Qué leyes mexicanas regulan los delitos informaticos y cuáles son las penas?",
+    "keywords_tecnicas": [
+      "codigo penal",
+      "delito informatico",
+      "prision",
+      "federal"
+    ],
+    "keywords_mx": [
+      "codigo penal federal",
+      "211"
+    ],
+    "contactos_mx": [
+      "fgr",
+      "088"
+    ],
+    "rag_esperado": true,
+    "reply": "**Delitos Informáticos en México: Regulación y Penas**\n\nEn México, los delitos informáticos están regulados por el Código Penal Federal. El artículo 211-bis del Código Penal Federal es el que tipifica estos delitos.\n\n**Artículo 211-bis del Código Penal Federal:**\n\"El que, de manera ilegítima y sin autorización, acceda a sistemas informáticos o de computadora, modifique, destruya o altere datos, o utilice información obtenida con ese medio, se punisha con prisión de 3 meses a 9 años, además de las demás sanciones que correspondan.\"\n\n**Delitos Tipificados:**\n\n*   **Acceso ilícito a sistemas (211-bis1):** El acceso no autorizado a sistemas informáticos o de computadora se considera un delito.\n*   **Modificación/destrucción de datos (211-bis2):** La modificación, destrucción o alteración ilegítima de datos se considera un delito.\n*   **Fraude informático:** El fraude cometido mediante sistemas informáticos o de computadora se considera un delito.\n\n**Penas:**\n\n*   Las penas para los delitos informáticos varían según la gravedad del delito, desde 3 meses a 9 años de prisión.\n*   Además de las penas de prisión, también pueden ser aplicadas otras sanciones como multas o restricciones.\n\n**Autoridades Competentes:**\n\nPara denunciar delitos informáticos en México, se pueden contactar con la Policía Cibernética (088) o la Fiscalía General (FGR).\n\n---\n\nSi tienes alguna pregunta adicional, no dudes en preguntar.",
+    "rag_used": true,
+    "elapsed": 104.6,
+    "score_total": 91.2,
+    "pct_tecnicas": 75.0,
+    "pct_mx": 100.0,
+    "pct_contactos": 100.0,
+    "longitud": 1421,
+    "keywords_encontradas": [
+      "codigo penal",
+      "prision",
+      "federal"
+    ],
+    "mx_encontradas": [
+      "codigo penal federal",
+      "211"
+    ],
+    "contactos_encontrados": [
+      "fgr",
+      "088"
+    ],
+    "calidad": "[EXCELENTE]"
+  },
+  {
+    "id": "P17",
+    "categoria": "ESTADISTICAS",
+    "dificultad": "Informativo",
+    "pregunta": "¿Cuáles son las principales amenazas de ciberseguridad en México en 2024?",
+    "keywords_tecnicas": [
+      "ataque",
+      "phishing",
+      "ransomware",
+      "fraude",
+      "amenaza"
+    ],
+    "keywords_mx": [
+      "mexico",
+      "kaspersky"
+    ],
+    "contactos_mx": [],
+    "rag_esperado": true,
+    "reply": "**Respuesta de Agente Bit**\n\n**Resumen del Contexto**\nMéxico es el segundo país más atacado de Latinoamérica en términos de ciberseguridad, con más de 200 millones de intentos de ciberataque anuales. Los sectores más vulnerables son el gobierno (35%), servicios financieros (25%), salud (15%) y manufactura (10%). El principal vector de ataque es el phishing (68% de los incidentes), mientras que el costo promedio de una brecha de seguridad en México asciende a $2.76 millones USD.\n\n**Principales Amenazas de Ciberseguridad en México en 2024**\n\nSegún las estadísticas proporcionadas, las principales amenazas de ciberseguridad en México en 2024 son:\n\n1. **Phishing**: El phishing es el principal vector de ataque, con una tasa del 68% de los incidentes.\n2. **Hackeo y Acceso Ilícito a Sistemas**: La Policía Cibernética de la Secretaría de Seguridad y Protección Ciudadana atiende delitos informáticos relacionados con el acceso ilícito a sistemas, como el acceso no autorizado a redes, bases de datos y sistemas críticos.\n3. **Sextorsión y Acoso Digital**: La Policía Cibernética también atiende delitos informáticos relacionados con la sextorsión y el acoso digital, que pueden tener consecuencias graves para las víctimas.\n4. **Fraude Informático y Robo de Identidad Digital**: El fraude informático y el robo de identidad digital son otros delitos informáticos comunes en México que deben ser prevenidos y reportados.\n\n**Pasos Accionables**\nSi se detect",
+    "rag_used": true,
+    "elapsed": 94.1,
+    "score_total": 80.5,
+    "pct_tecnicas": 80.0,
+    "pct_mx": 50.0,
+    "pct_contactos": 100,
+    "longitud": 1458,
+    "keywords_encontradas": [
+      "ataque",
+      "phishing",
+      "fraude",
+      "amenaza"
+    ],
+    "mx_encontradas": [
+      "mexico"
+    ],
+    "contactos_encontrados": [],
+    "calidad": "[BUENO]"
+  }
+]
